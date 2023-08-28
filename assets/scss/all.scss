@@ -2,28 +2,34 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../scss/helpers/variables"; //customer
 @import "../scss/helpers/variables-dark"; //customer
+@import "../scss/helpers/helper"; //helper
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../scss/mixin/breakpoin_customer"; //customer
 @import "../scss/utilis/utilities"; //customer
 @import "../scss/utilis/utilities-customer"; //customer
 
-// Layout & components
+
+//Layout
 @import "../scss/base/root"; //customer
 @import "../scss/base/reboot"; //customer
-@import "../scss/base/base"; //customer
+@import "../scss/base/base"; //base
+//bootstrap customer components
+@import "../scss/component/buttons";
+@import "../scss/component/navbar";
+//components
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/tables";
 @import "../node_modules/bootstrap/scss/forms";
-@import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/transitions";
 @import "../node_modules/bootstrap/scss/dropdown";
 @import "../node_modules/bootstrap/scss/button-group";
 @import "../node_modules/bootstrap/scss/nav";
-@import "../node_modules/bootstrap/scss/navbar";
+// @import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/card";
 @import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/breadcrumb";

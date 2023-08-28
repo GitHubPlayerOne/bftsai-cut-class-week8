@@ -245,8 +245,9 @@ a {
   text-decoration: $link-decoration;
 
   &:hover {
-    --#{$prefix}link-color-rgb: var(--#{$prefix}link-hover-color-rgb);
-    text-decoration: $link-hover-decoration;
+    color: $primary; //customer
+    // --#{$prefix}link-color-rgb: var(--#{$prefix}link-hover-color-rgb);
+    // text-decoration: $link-hover-decoration;
   }
 }
 
@@ -333,6 +334,7 @@ figure {
 
 img,
 svg {
+  width: 100%; //customer
   vertical-align: middle;
 }
 

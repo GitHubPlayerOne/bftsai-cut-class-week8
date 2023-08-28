@@ -502,10 +502,16 @@ $utilities: map-merge(
     "font-family": (
       property: font-family,
       class: font,
-      values: (monospace: var(--#{$prefix}font-monospace))
+      values: (
+        monospace: var(--#{$prefix}font-monospace),
+        noto: 'Noto Sans TC',
+        shrikhand: 'Shrikhand',
+        saira: 'Saira Extra Condensed',
+        )
     ),
     "font-size": (
-      rfs: true,
+      rfs: false, //customer true,
+      responsive: true,
       property: font-size,
       class: fs,
       values: $font-sizes
@@ -525,7 +531,8 @@ $utilities: map-merge(
         medium: $font-weight-medium,
         semibold: $font-weight-semibold,
         bold: $font-weight-bold,
-        bolder: $font-weight-bolder
+        bolder: $font-weight-bolder,
+        heavy: $font-weight-heavy, //customer
       )
     ),
     "line-height": (
