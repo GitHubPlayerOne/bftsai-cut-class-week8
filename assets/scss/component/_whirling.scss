@@ -1,0 +1,16 @@
+.whirling{
+    animation-name: rotate360;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+    animation-iteration-count: infinite; //無限循環
+    animation-fill-mode: both;
+}
+@keyframes rotate360 {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

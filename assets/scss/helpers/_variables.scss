@@ -311,6 +311,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$copyright:     #AD93CF !default; //customer
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -322,7 +323,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "copyright":  $copyright, //customer
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -499,7 +501,7 @@ $icon-link-icon-transform:    translate3d(.25em, 0, 0) !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default; //customer 1rem !default;
 
 
 // Grid breakpoints
@@ -1186,8 +1188,8 @@ $zindex-levels: (
 // Navs
 
 // scss-docs-start nav-variables
-$nav-link-padding-y:                .5rem !default;
-$nav-link-padding-x:                1rem !default;
+$nav-link-padding-y:                0 !default; //customer .5rem !default;
+$nav-link-padding-x:                0 !default; //customer 1rem !default;
 $nav-link-font-size:                null !default;
 $nav-link-font-weight:              null !default;
 $nav-link-color:                    var(--#{$prefix}link-color) !default;
@@ -1220,7 +1222,7 @@ $nav-underline-link-active-color:   var(--#{$prefix}emphasis-color) !default;
 $navbar-padding-y:                  $spacer * .5 !default;
 $navbar-padding-x:                  null !default;
 
-$navbar-nav-link-padding-x:         .5rem !default;
+$navbar-nav-link-padding-x:         0 !default; //customer .5rem !default;
 
 $navbar-brand-font-size:            $font-size-lg !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link

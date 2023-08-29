@@ -94,6 +94,7 @@ $utilities: map-merge(
     // scss-docs-end utils-focus-ring
     // scss-docs-start utils-position
     "position": (
+      responsive: true,
       property: position,
       values: static relative absolute fixed sticky
     ),
@@ -543,6 +544,17 @@ $utilities: map-merge(
         sm: $line-height-sm,
         base: $line-height-base,
         lg: $line-height-lg,
+      )
+    ),
+    "letter-spacing": ( //customer
+      responsive: true,
+      property: letter-spacing,
+      class: letterspc,
+      values: (
+        8: 0.08rem,
+        10: 0.1rem,
+        1: 1rem,
+        500: 5rem,
       )
     ),
     "text-align": (
