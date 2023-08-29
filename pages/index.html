@@ -11,31 +11,73 @@
       <%- include('./layout/header'); -%>
       <div class="container pt-14 d-flex flex-column align-items-center position-xl-relative">
         <div class="d-flex flex-column position-xl-absolute" style="width: 416px; right: -220px;">
-          <p class="text-white font-noto letterspc-10 fw-bold pt-lg-1 border-top border-1 mb-xl-24">ALPHABOX+ STUDIO</p>
+          <p class="font-noto letterspc-10 fw-bold pt-lg-1 border-top border-1 mb-xl-24">ALPHABOX+ STUDIO</p>
           <p class="text-copyright font-noto letterspc-10 d-none d-xl-block fw-medium">Copyright © 2023 Hexschool.</p>
         </div>
         <img class="d-block whirling mb-lg-14" src="../assets/images/index/circle.svg" alt="rotate pic" style="width: 196px; height: 196px;">
-        <h1 class="text-white fw-normal text-center fs-xl-5 letterspc-500 fst-italic ms-20">ALPHABOX+</h1>
-        <p class="text-white fw-bold font-noto letterspc-1">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
-        <a href="#" class="pb-2 border-bottom border-1 text-white fw-bold font-noto align-self-end position-xl-absolute" style="top: 220px; left: -220px; width: 416px;">
+        <h1 class="fw-normal text-center fs-xl-5 letterspc-250 fst-italic ms-20">ALPHABOX+</h1>
+        <p class="fw-bold font-noto letterspc-100">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+        <a href="#" class="pb-2 border-bottom border-1 fw-bold font-noto align-self-end position-xl-absolute" style="top: 220px; left: -220px; width: 416px;">
           最新消息！新版本 v15.4 釋出，搶先體驗！
         </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw" style="width: 416px; height: 676px; background: url(../assets/images/index/diane.svg) center center no-repeat;">
+        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 416px; height: 676px; background: url(../assets/images/index/diane.svg) center center no-repeat; left: -220px; top: 309px;">
           Diane
         </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw" style="width: 416px; height: 580px; background: url(../assets/images/index/felix.svg) center center no-repeat;">
+        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 416px; height: 580px; background: url(../assets/images/index/felix.svg) center center no-repeat; left: 228px; top: 405px;">
           Felix
         </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw" style="width: 416px; height: 580px; background: url(../assets/images/index/karina.svg) center center no-repeat;">
+        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 416px; height: 580px; background: url(../assets/images/index/karina.svg) center center no-repeat; right: 228px; top: 405px;">
           Karina
         </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw" style="width: 416px; height: 676px; background: url(../assets/images/index/vito.svg) center center no-repeat;">
+        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 416px; height: 676px; background: url(../assets/images/index/vito.svg) center center no-repeat; right: -220px; top: 309px;">
           Vito
         </a>
       </div>
 
     </div>
-
+    <div class="radialGradienStyle-1 position-xl-relative pt-xl-27 pb-xl-28 fake">
+      <div class="decorate position-xl-absolute start-50 translate-middle-x z-1 mx-auto" style="width: 1760px; height: 40px; background: linear-gradient(to right,#7000FF,#11002D); top: 144px;"></div>
+      <div class="container position-xl-relative">
+        <div class="bg position-xl-absolute" style="background: url(../assets/images/index/carousel_background.svg) center center no-repeat; background-size: cover; width: 948px; height: 1089px; left: -300px; top: -405px;"></div>
+        <h2 class="fs-xl-3 fw-bold font-noto letterspc-100 position-xl-absolute mb-0" style="top: -192px; left: -220px;"><span class="d-block mb-xl-3">什麼是<br></span>ALPHABOX+</h2>
+        <!-- carousel -->
+        <div id="carouselIndex" class="carousel slide position-xl-relative" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item w-100 pt-xl-25 px-xl-10 active" data-bs-interval="2000" style="height: 560px; background: url(../assets/images/index/carousel-1.svg) center center no-repeat; background-size: cover;">
+              <p class="fs-xl-1 fst-italic text-end">01</p>
+              <h2 class="fs-xl-5 fw-bold mb-xl-4 text-end">立體投影技術</h2>
+              <p class="fw-bold text-end">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            </div>
+            <div class="carousel-item w-100 pt-xl-25 px-xl-10" data-bs-interval="2000" style="height: 560px; background: url(../assets/images/index/carousel-2.jpg) center center no-repeat; background-size: cover;">
+              <p class="fs-xl-1 fst-italic">02</p>
+              <h2 class="fs-xl-5 fw-bold mb-xl-4">立體投影技術</h2>
+              <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            </div>
+            <div class="carousel-item w-100 pt-xl-25 px-xl-10" data-bs-interval="2000" style="height: 560px; background: url(../assets/images/index/carousel-3.jpg) center center no-repeat; background-size: cover;">
+              <p class="fs-xl-1 fst-italic">03</p>
+              <h2 class="fs-xl-5 fw-bold mb-xl-4">立體投影技術</h2>
+              <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev position-xl-absolute" style="left: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
+            <img src="../assets/images/index/arrow-previous.svg" alt="previous arrow" aria-hidden="true" class="d-block" style="width: 180px; height: 48px;">
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next position-xl-absolute" style="right: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
+            <img src="../assets/images/index/arrow-next.svg" alt="next arrow" aria-hidden="true" class="d-block" style="width: 180px; height: 48px;">
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="decorate position-xl-absolute start-50 translate-middle-x z-1 mx-auto" style="width: 1760px; height: 40px; background: linear-gradient(to left,#7000FF,#11002D); bottom: 52px;"></div>
+    </div>
+    <div class="radialGradienStyle-2 pt-xl-25">
+      <div class="container">
+        <h2 class="fs-xl-3 fw-bold letterspc-100 pb-xl-10 border-bottom mb-xl-10">
+          最新消息
+        </h2>
+      </div>
+    </div>
     
     
     <%- include('./layout/footer'); -%>

@@ -12,3 +12,12 @@
 .boxshaw:hover{
     box-shadow: 0 0 16px 8px rgba(143, 0, 255, 0.8);
 }
+.aHoverPrimary:hover{
+    color: $primary !important;
+}
+.radialGradienStyle-1{
+    background: radial-gradient(#300871,#000000);
+}
+.radialGradienStyle-2{
+    background: radial-gradient(#28085C,#000000);
+}

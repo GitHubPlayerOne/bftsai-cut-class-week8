@@ -551,10 +551,11 @@ $utilities: map-merge(
       property: letter-spacing,
       class: letterspc,
       values: (
-        8: 0.08rem,
-        10: 0.1rem,
-        1: 1rem,
-        500: 5rem,
+        8: 0.08em, //8%
+        10: 0.1em, //10%
+        100: 1em, //100%
+        250: 2.5em, //250%
+        500: 5em, //500%
       )
     ),
     "text-align": (
