@@ -551,6 +551,7 @@ $utilities: map-merge(
       property: letter-spacing,
       class: letterspc,
       values: (
+        0: 0em, //0%
         8: 0.08em, //8%
         10: 0.1em, //10%
         100: 1em, //100%
