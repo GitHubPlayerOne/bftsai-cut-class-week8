@@ -1,0 +1,23 @@
+.my-custom-shake {
+    @include do-shake(
+          $name: 'my-custom-shake', /* {String} is the name for the keyframes animation */
+          $h: 5px, /*  {Number} is the max number for random to assign in x axis */
+          $v: 5px, /* {Number} is the max number for random to assign in y axis */
+          $r: 3deg, /* {Number} is the max number for random rotation */
+          $dur: 100ms, /* {Number} is the animation-duration time value */
+          $precision: .02, /* {Number} is the precision of the keyframes animation. For example .02 generates keyframes each 2% and .1 each 10%. The calculation is $step: 100 * $precision; */
+          $opacity: false, 
+          $q: infinite, /* {String} is the animation-iteration-count value */
+          $t: ease-in-out, /* {String} animation-timing-function value */
+          $delay: null, /* {Number} animation-delay time value */
+          $chunk: 100%); /* {Number} is the part of the keyframes where apply the animation */
+  }
+  
+  /* Example shake-crazy */
+  .shake-crazy { 
+      @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); 
+  }
+  //example horizontal vertical
+  .shake-horizontal-customer { @include do-shake('shake-horizontal-customer', 200, 0, 0); }
+
+  .shake-vertical-customer { @include do-shake('shake-vertical-customer', 0, 50, 0); }

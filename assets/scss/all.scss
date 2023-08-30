@@ -56,7 +56,12 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-
+//CSSake
+//@import url("https://csshake.surge.sh/csshake.min.css"); //official website provided
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/csshake/1.7.0/csshake.min.css");
+@import "../scss/component/tools";
+@import "../scss/component/csshake";
+@import "../scss/component/csshake-customer";
 
 
 
