@@ -24,3 +24,14 @@
 .radialGradienStyle-3{
     background: radial-gradient(#000000,#28085C);
 }
+.background-blend-mode{
+    background-color: #000;
+    background-blend-mode: darken;
+    &:hover{
+        background-color: transparent !important;
+        cursor: pointer;
+    }
+    &:active{
+        background-color: transparent !important;
+    }
+}
