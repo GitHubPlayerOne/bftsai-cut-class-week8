@@ -15,8 +15,8 @@
 .aHoverPrimary:hover{
     color: $primary !important;
 }
-.radialGradienStyle-1{
-    background: radial-gradient(#300871,#000000);
+.h-radialGradienStyle-1{
+    background: url(../images/index/carousel_background.svg);
 }
 .radialGradienStyle-2{
     background: radial-gradient(#28085C,#000000);
@@ -36,6 +36,9 @@
     }
 }
 @include xl{
+    .h-radialGradienStyle-1{
+        background: radial-gradient(#300871,#000000);
+    }
     .h-border-bottom-xl-0{
         border-bottom-width: 0px !important;
     }
