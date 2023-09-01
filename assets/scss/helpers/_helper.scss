@@ -9,7 +9,7 @@
     width: 24px;
     height: 24px;
 }
-.boxshaw:hover{
+.h-boxshaw:hover{
     box-shadow: 0 0 16px 8px rgba(143, 0, 255, 0.8);
 }
 .aHoverPrimary:hover{
@@ -33,5 +33,13 @@
     }
     &:active{
         background-color: transparent !important;
+    }
+}
+@include xl{
+    .h-border-bottom-xl-0{
+        border-bottom-width: 0px !important;
+    }
+    .h-border-bottom-xl-1{
+        border-bottom: 1px solid #FFF !important;
     }
 }

@@ -1,9 +1,46 @@
-.fakeLine::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-    top: 364px;
-    z-index: 1;
+@include xl{
+    .topBg{
+        background: url(../assets/images/index/index-top-bg.svg) center center no-repeat !important;
+        background-size: cover !important;
+        height: 960px !important;
+    }
+    .w-xl-adjust32{
+        width: 31.515152% !important;
+    }
+    .fakeLine::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        top: 364px;
+        z-index: 1;
+    }
+    .typeSide-xl{
+        width: 31.515152% !important;
+        height: 676px !important;
+    }
+    .typeCenter-xl{
+        width: 31.515152% !important;
+        height: 580px !important;
+    }
+    .robot:nth-child(1){
+        background: url(../assets/images/index/diane.svg) center center no-repeat !important;
+        background-size: cover !important;
+    }
+    .robot:nth-child(2){
+        background: url(../assets/images/index/felix.svg) center center no-repeat !important;
+        background-size: cover !important;
+    }
+    .robot:nth-child(3){
+        background: url(../assets/images/index/karina.svg) center center no-repeat !important;
+        background-size: cover !important;
+        margin-bottom: 0 !important;
+    }
+    .robot:nth-child(4){
+        background: url(../assets/images/index/vito.svg) center center no-repeat !important;
+        background-size: cover !important;
+        right: -220px !important;
+        top: 309px !important;
+    }
 }

@@ -7,31 +7,33 @@
     <title>index</title>
   </head>
   <body>
-    <div class="bg" style="background: url(../assets/images/index/index-top-bg.svg) center center no-repeat; background-size: cover; height: 960px;">
+    <div class="h-bg-linear topBg">
       <%- include('./layout/header'); -%>
-      <div class="container pt-14 d-flex flex-column align-items-center position-xl-relative">
-        <div class="d-flex flex-column position-xl-absolute" style="width: 416px; right: -220px;">
-          <p class="font-noto letterspc-10 fw-bold pt-lg-1 border-top border-1 mb-xl-24">ALPHABOX+ STUDIO</p>
+      <div class="container pt-7 pt-xl-14 d-flex flex-column align-items-center position-relative">
+        <div class="w-100 mb-8 mb-xl-0 d-flex flex-column position-xl-absolute w-xl-adjust32" style="right: -220px;">
+          <p class="font-noto letterspc-10 fw-bold pt-2 pt-lg-1 border-top border-1 mb-xl-24">ALPHABOX+ STUDIO</p>
           <p class="text-copyright font-noto letterspc-10 d-none d-xl-block fw-medium">Copyright © 2023 Hexschool.</p>
         </div>
         <img class="d-block whirling mb-lg-14" src="../assets/images/index/circle.svg" alt="rotate pic" style="width: 196px; height: 196px;">
-        <h1 class="fw-normal text-center fs-xl-5 letterspc-250 fst-italic ms-20">ALPHABOX+</h1>
-        <p class="fw-bold font-noto letterspc-100">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
-        <a href="#" class="pb-2 border-bottom border-1 fw-bold font-noto align-self-end position-xl-absolute" style="top: 220px; left: -220px; width: 416px;">
+        <h1 class="fw-normal text-center fs-6 fs-xl-5 letterspc-130 letterspc-xl-250 fst-italic ms-xl-20">ALPHABOX+</h1>
+        <p class="fw-bold font-noto text-center letterspc-30 letterspc-xl-100 mb-8 mb-xl-0">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+        <a href="#" class="d-none d-xl-block pb-2 border-bottom border-1 fw-bold font-noto align-self-end position-xl-absolute" style="top: 220px; left: -220px; width: 416px;">
           最新消息！新版本 v15.4 釋出，搶先體驗！
         </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 31.515152%; height: 676px; background: url(../assets/images/index/diane.svg) center center no-repeat; left: -220px; top: 309px;">
-          Diane
-        </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 31.515152%; height: 580px; background: url(../assets/images/index/felix.svg) center center no-repeat; left: 228px; top: 405px;">
-          Felix
-        </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 31.515152%; height: 580px; background: url(../assets/images/index/karina.svg) center center no-repeat; right: 228px; top: 405px;">
-          Karina
-        </a>
-        <a href="#" class="position-xl-absolute fs-xl-5 text-center pt-xl-4 boxshaw z-1" style="width: 31.515152%; height: 676px; background: url(../assets/images/index/vito.svg) center center no-repeat; right: -220px; top: 309px;">
-          Vito
-        </a>
+        <div class="w-100">
+          <a href="#" class="robot mt-4 mt-xl-0 position-xl-absolute fs-5 text-center pt-4 h-boxshaw z-1 w-100 typeSide-xl" style="min-height: 351px; background: url(../assets/images/index/diane_mobile.svg) center center no-repeat; background-size: cover; left: -220px; top: 309px;">
+            Diane
+          </a>
+          <a href="#" class="robot mt-4 mt-xl-0 position-xl-absolute fs-5 text-center pt-4 h-boxshaw z-1 w-100 typeCenter-xl" style="min-height: 351px; background: url(../assets/images/index/felix_mobile.svg) center center no-repeat; background-size: cover; left: 228px; top: 405px;">
+            Felix
+          </a>
+          <a href="#" class="robot mt-4 mt-xl-0 position-xl-absolute fs-5 text-center pt-4 h-boxshaw z-1 w-100 typeCenter-xl" style="min-height: 351px; background: url(../assets/images/index/karina_mobile.svg) center center no-repeat; background-size: cover; right: 228px; top: 405px; margin-bottom: 263px;">
+            Karina
+          </a>
+          <a href="#" class="robot position-absolute fs-5 text-center pt-4 h-boxshaw z-1 typeSide-xl" style="width: calc(100% - 24px); height: 351px; background: url(../assets/images/index/vito_mobile.svg) center center no-repeat; background-size: cover; top: 1524px;">
+            Vito
+          </a>
+        </div>
       </div>
 
     </div>
@@ -59,11 +61,11 @@
               <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
             </div>
           </div>
-          <button class="carousel-control-prev position-xl-absolute" style="left: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
+          <button class="d-none d-xl-block carousel-control-prev position-xl-absolute" style="left: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
             <img src="../assets/images/index/arrow-previous.svg" alt="previous arrow" aria-hidden="true" class="d-block" style="width: 180px; height: 48px;">
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next position-xl-absolute" style="right: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
+          <button class="d-none d-xl-block carousel-control-next position-xl-absolute" style="right: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
             <img src="../assets/images/index/arrow-next.svg" alt="next arrow" aria-hidden="true" class="d-block" style="width: 180px; height: 48px;">
             <span class="visually-hidden">Next</span>
           </button>
@@ -134,7 +136,7 @@
       <div class="overflow-hidden">
         <div class="container">
           <!-- Slider main container -->
-          <div class="swiper mb-xl-28">
+          <div class="swiper index-swiper mb-xl-28">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->

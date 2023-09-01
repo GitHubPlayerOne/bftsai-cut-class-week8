@@ -1,0 +1,45 @@
+
+  
+  .font-Shrikhand {
+    font-family: 'Shrikhand', cursive;
+  }
+  
+  .fs-96 {
+    font-size: 96px;
+  }
+  
+  .alphabox {
+    height: 351px;
+    background-image: url(https://hackmd.io/_uploads/Syn6HV7Tn.png);
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    @media (min-width: 768px) {
+      height: 560px;
+      padding-right: 40px;
+    }
+    
+    &-title {
+      letter-spacing: 24px;
+      @media (min-width: 768px) {
+        letter-spacing: 32px;
+        margin-right: -32px;
+      }
+    }
+  }
+  
+  .rotate {
+    rotate: 180deg;
+  }
+  
+  // 箭頭
+  .swiper-button-next, .swiper-button-prev {
+    color: #fff;
+    position: initial;
+    margin-top: 0;
+    width: auto;
+    height: auto;
+    &::after {
+      content: '';
+    }
+  }

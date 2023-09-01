@@ -1,0 +1,14 @@
+.navbar-collapse.show{
+    background: linear-gradient(#7000FF,#11002D);
+    transform: translateY(72px);
+}
+@include xl{
+    .logo{
+        width: 208px !important;
+        height: 48px !important;
+    }
+    .navbar-collapse.show{
+        background: transparent;
+        transform: translateY(0px);
+    }
+}
