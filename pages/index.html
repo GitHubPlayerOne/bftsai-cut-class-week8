@@ -45,20 +45,26 @@
         <!-- carousel -->
         <div id="carouselIndex" class="carousel slide position-xl-relative mb-8 mb-xl-0" data-bs-ride="carousel" style="height: 351px;">
           <div class="carousel-inner h-100">
-            <div class="carousel-item w-100 pt-xl-25 px-xl-10 h-100 active" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-1.svg) center center no-repeat; background-size: cover;">
-              <p class="fs-xl-1 fst-italic text-end">01</p>
-              <h2 class="fs-xl-5 fw-bold mb-xl-4 text-end">立體投影技術</h2>
-              <p class="fw-bold text-end">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            <div class="carousel-item w-100 p-4 px-xl-10 h-100 active" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-1.svg) center center no-repeat; background-size: cover;">
+              <div class="d-flex flex-column justify-content-end justify-content-xl-center h-100">
+                <p class="fs-2 fs-xl-1 fst-italic text-xl-end">01</p>
+                <h2 class="fs-24 fs-xl-5 fw-bold mb-2 mb-xl-4 letterspc-100 text-xl-end" style="margin-right: -32px;">立體投影技術</h2>
+                <p class="fw-bold text-xl-end">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+              </div>
             </div>
-            <div class="carousel-item w-100 pt-xl-25 px-xl-10 h-100" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-2.jpg) center center no-repeat; background-size: cover;">
-              <p class="fs-xl-1 fst-italic">02</p>
-              <h2 class="fs-xl-5 fw-bold mb-xl-4">立體投影技術</h2>
-              <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            <div class="carousel-item w-100 p-4 px-xl-10 h-100" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-2.jpg) center center no-repeat; background-size: cover;">
+              <div class="d-flex flex-column justify-content-end justify-content-xl-center h-100">
+                <p class="fs-2 fs-xl-1 fst-italic">02</p>
+                <h2 class="fs-24 fs-xl-5 fw-bold mb-2 mb-xl-4 letterspc-100">立體投影技術</h2>
+                <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+              </div>
             </div>
-            <div class="carousel-item w-100 pt-xl-25 px-xl-10 h-100" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-3.jpg) center center no-repeat; background-size: cover;">
-              <p class="fs-xl-1 fst-italic">03</p>
-              <h2 class="fs-xl-5 fw-bold mb-xl-4">立體投影技術</h2>
-              <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            <div class="carousel-item w-100 p-4 px-xl-10 h-100" data-bs-interval="2000" style="background: url(../assets/images/index/carousel-3.jpg) center center no-repeat; background-size: cover;">
+              <div class="d-flex flex-column justify-content-end justify-content-xl-center h-100">
+                <p class="fs-2 fs-xl-1 fst-italic">03</p>
+                <h2 class="fs-24 fs-xl-5 fw-bold mb-2 mb-xl-4 letterspc-100">立體投影技術</h2>
+                <p class="fw-bold">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+              </div>
             </div>
           </div>
           <button class="d-none d-xl-block carousel-control-prev position-xl-absolute" style="left: -232px;" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
@@ -296,7 +302,9 @@
     </div>
     <%- include('./layout/footer'); -%>
     
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- own js -->
     <script type="module" src="../main.js"></script>
     <script type="module" src="../assets/js/index.js"></script>
   </body>

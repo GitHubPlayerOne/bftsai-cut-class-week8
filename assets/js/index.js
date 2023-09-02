@@ -39,3 +39,11 @@ const swiper = new Swiper('.swiper', {
     mousewheel: true,
   });
   
+  $(document).ready(function () {
+    if(jQuery(window).width()>=992){
+      $('.carousel').removeAttr('data-bs-ride',"carousel");
+    }
+    else{
+      $('.carousel').attr('data-bs-ride',"carousel");
+    }
+  });
