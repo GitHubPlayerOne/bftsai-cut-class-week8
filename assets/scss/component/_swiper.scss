@@ -1,9 +1,22 @@
 .index-swiper{
     overflow: initial;
+    .swiper-slide{
+        width: 351px !important;
+        height: 351px !important;
+    }
 }
-.swiper-scrollbar-drag{
-    background-color: #FFF;
+@include xl{
+    .index-swiper{
+        overflow: initial;
+        .swiper-slide{
+            width: 416px !important;
+            height: 416px !important;
+        }
+    }
+    .swiper-scrollbar-drag{
+        background-color: #FFF;
+    }
+    .swiper-scrollbar {
+        background-color: gray;
+    }
 }
-.swiper-scrollbar {
-    background-color: gray;
-  }

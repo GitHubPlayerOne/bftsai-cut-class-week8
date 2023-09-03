@@ -4,17 +4,10 @@ import { Navigation, Pagination } from 'swiper/modules';
 // init Swiper:
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    //direction: 'horizontal',
-    //loop: true,
-    //rewind: true;
-    //speed: 400,
-    slidesPerView: '3',
+    direction: 'vertical',
+    slidesPerView: '4',
     spaceBetween: 24,
-    //centeredSlides: true,
-    // autoplay: {
-    //     delay: 300,
-    //     disableOnInteraction: false,
-    // },
+    enabled:false,
   
     // If we need pagination
     // pagination: {
@@ -30,13 +23,28 @@ const swiper = new Swiper('.swiper', {
   
     // And if we need scrollbar
     scrollbar: {
+      enabled: true, //can't responsive
       el: '.swiper-scrollbar', /* 整個滾動條的class 名稱，不可更改 */
       hide: false, //設置為true 使用戶滑動離開時隱藏滾動條
       dragSize: 'auto', //設定swiper-scrollbar-drag 的長度，單位為px
       draggable: true, //設置為true 可用滑鼠拖曳滾動條
     },
     // 使 swiper 可以使用滑鼠滾輪捲動
-    mousewheel: true,
+    mousewheel: true, //can't responsive
+    breakpoints: {
+      1400: {
+        direction: 'horizontal',
+        slidesPerView: '3',
+        spaceBetween: 24,
+
+        scrollbar: {
+          enabled: true,
+          el: '.swiper-scrollbar', /* 整個滾動條的class 名稱，不可更改 */
+          dragSize: 'auto', //設定swiper-scrollbar-drag 的長度，單位為px
+          draggable: true, //設置為true 可用滑鼠拖曳滾動條
+        },
+      }
+    }
   });
   
   $(document).ready(function () {

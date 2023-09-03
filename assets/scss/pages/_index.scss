@@ -61,4 +61,13 @@
     .border-xl-bottom{
         border-bottom: 1px solid #FFF;
     }
+    .radialGradienStyle-3{
+        .container:nth-child(3){
+            p{
+                font-size: 400px !important;
+                top: -327px !important;
+                left: -607px !important;
+            }
+        }
+    }
 }
