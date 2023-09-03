@@ -18,10 +18,10 @@
 .h-radialGradienStyle-1{
     background: url(../images/index/carousel_background.svg);
 }
-.radialGradienStyle-2{
+.h-radialGradienStyle-2{
     background: radial-gradient(#28085C,#000000);
 }
-.radialGradienStyle-3{
+.h-radialGradienStyle-3{
     background: radial-gradient(#000000,#28085C);
 }
 .background-blend-mode{
@@ -44,5 +44,11 @@
     }
     .h-border-bottom-xl-1{
         border-bottom: 1px solid #FFF !important;
+    }
+    .h-border-end-xl-1{
+        border-right: 1px solid #FFF;
+    }
+    .h-border-bottom-xl-1{
+        border-bottom: 1px solid #FFF;
     }
 }
