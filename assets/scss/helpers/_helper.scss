@@ -28,6 +28,31 @@
     background-blend-mode: darken;
 }
 @include xl{
+    .h-bg-linear{
+        padding-bottom: 491px;
+        .container:nth-child(2){
+            &::before{
+                position: absolute;
+                content: "";
+                width: 200%;
+                height: 1px;
+                background: #B983FFB2;
+                top: 700px;
+                left: -705px;
+                rotate: 19.44deg;
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                width: 200%;
+                height: 1px;
+                background: #B983FFB2;
+                top: 560px;
+                left: -650px;
+                rotate: -7.89deg;
+            }
+        }
+    }
     .h-radialGradienStyle-1{
         background: radial-gradient(#300871,#000000);
     }

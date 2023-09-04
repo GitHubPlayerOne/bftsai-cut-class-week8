@@ -31,6 +31,21 @@
     }
     .h-radialGradienStyle-1{
         padding-top: 326px !important;
+        .carousel{
+            height: 405px !important;
+        }
+    }
+    .h-radialGradienStyle-3{
+        .container:nth-child(3){
+            p{
+                left: 0px !important;
+            }
+        }
+    }
+    .container:nth-child(6){
+        .product{
+            height: 1040px !important;
+        }
     }
 }
 @include xl{
@@ -41,9 +56,9 @@
         }
     }
     .topBg{
-        background: url(../assets/images/index/index-top-bg.svg) center center no-repeat !important;
-        background-size: cover !important;
-        height: 960px !important;
+        // background: url(../assets/images/index/index-top-bg.svg) center center no-repeat !important;
+        // background-size: cover !important;
+        // height: 960px !important;
     }
     .w-xl-adjust32{
         width: 31.515152% !important;
@@ -86,6 +101,9 @@
         background-size: cover !important;
         right: -220px !important;
         top: 309px !important;
+    }
+    .h-radialGradienStyle-1{
+        padding-top: 396px !important;
     }
     .decorate{
         width: 1760px !important;

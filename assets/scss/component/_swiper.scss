@@ -5,12 +5,11 @@
         height: 351px !important;
     }
 }
-@include xl{
+@include lg{
     .index-swiper{
-        overflow: initial;
         .swiper-slide{
-            width: 416px !important;
-            height: 416px !important;
+            width: 288px !important;
+            height: 288px !important;
         }
     }
     .swiper-scrollbar-drag{
@@ -18,5 +17,14 @@
     }
     .swiper-scrollbar {
         background-color: gray;
+    }
+}
+@include xl{
+    .index-swiper{
+        //overflow: initial;
+        .swiper-slide{
+            width: 416px !important;
+            height: 416px !important;
+        }
     }
 }
