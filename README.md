@@ -17,7 +17,7 @@
 images/
 |
 |   |– index            # index pic 
-|
+`–
 js/
 |
 |   |– collapse.js      # bootstrap 5 customer
