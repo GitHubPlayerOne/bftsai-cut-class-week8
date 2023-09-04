@@ -14,7 +14,17 @@
 - [GitHub](https://github.com/hexschool/2022-web-layout-training/tree/main/week8-ai)
 
 ## 資料夾結構
-
+images/
+|
+|   |– index            # index pic 
+|
+js/
+|
+|   |– collapse.js      # bootstrap 5 customer
+|   |– collapse.js.map  # bootstrap 5 customer
+|   |– index.js         # index js
+|   |– swiper-test.js   # test Swiper
+`
 sass/
 |
 |– base/
