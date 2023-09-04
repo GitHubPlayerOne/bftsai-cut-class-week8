@@ -24,7 +24,7 @@ js/
 |   |– collapse.js.map  # bootstrap 5 customer
 |   |– index.js         # index js
 |   |– swiper-test.js   # test Swiper
-`
+`_
 sass/
 |
 |– base/
