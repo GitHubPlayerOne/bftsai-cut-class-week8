@@ -683,7 +683,8 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  7: $h7-font-size
+  7: $h7-font-size,
+  8: 128px,
 ) !default;
 // scss-docs-end font-sizes
 
@@ -1103,9 +1104,9 @@ $form-file-button-bg:             var(--#{$prefix}tertiary-bg) !default;
 $form-file-button-hover-bg:       var(--#{$prefix}secondary-bg) !default;
 // scss-docs-end form-file-variables
 
-// scss-docs-start form-floating-variables
-$form-floating-height:                  add(2.75rem, $input-height-border) !default; //customer
-$form-floating-line-height:             1.25 !default;
+// scss-docs-start form-floating-variables add($input-line-height * .25em, $input-padding-y * .5) !default;
+$form-floating-height:                  add($input-line-height * 1em,$input-padding-y * 4) !default; //customer add(2.75rem, $input-height-border) !default;
+$form-floating-line-height:             1.5 !default; //customer
 $form-floating-padding-x:               $input-padding-x !default;
 $form-floating-padding-y:               1rem !default;
 $form-floating-input-padding-t:         1.625rem !default;

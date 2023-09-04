@@ -24,16 +24,8 @@
 .h-radialGradienStyle-3{
     background: radial-gradient(#000000,#28085C);
 }
-.background-blend-mode{
-    background-color: #000;
+.h-background-blend-mode{
     background-blend-mode: darken;
-    &:hover{
-        background-color: transparent !important;
-        cursor: pointer;
-    }
-    &:active{
-        background-color: transparent !important;
-    }
 }
 @include xl{
     .h-radialGradienStyle-1{
@@ -50,5 +42,15 @@
     }
     .h-border-bottom-xl-1{
         border-bottom: 1px solid #FFF;
+    }
+    .h-background-blend-mode{
+        background-color: #000 !important;
+        &:hover{
+            background-color: transparent !important;
+            cursor: pointer;
+        }
+        &:active{
+            background-color: transparent !important;
+        }
     }
 }

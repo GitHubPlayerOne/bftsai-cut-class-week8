@@ -51,6 +51,7 @@ $utilities: map-merge(
     // scss-docs-end utils-opacity
     // scss-docs-start utils-overflow
     "overflow": (
+      responsive: true,
       property: overflow,
       values: auto hidden visible scroll,
     ),
