@@ -14,59 +14,48 @@
 - [GitHub](https://github.com/hexschool/2022-web-layout-training/tree/main/week8-ai)
 
 ## 資料夾結構
-images/
-|
-|   |– index            # index pic 
-`–
-js/
-|
-|   |– collapse.js      # bootstrap 5 customer
-|   |– collapse.js.map  # bootstrap 5 customer
-|   |– index.js         # index js
-|   |– swiper-test.js   # test Swiper
-`_
-sass/
-|
-|– base/
-|   |– _base.scss       # font-family @import & customer reset
-|   |– _reboot.scss     # bootstrap 5 reset(normalize) customer
-|   |– _root.scss       # bootstrap 5 customer
-|
-|– components/
-|   |– _buttons.scss     # bootstrap 5 customer Buttons
-|   |– _csshake-customer.scss    # csshake Customer set
-|   |– _csshake.scss     # csshake origin set
-|   |– _forms.scss       # bootstrap 5 customer Form
-|   |– _navbar.scss      # bootstrap 5 customer Navbar
-|   |– _swiper.scss      # Swiper
-|   |– _tools.scss       # csshake origin set
-|   |– _whirling.scss    # customer Whirling animate
-|
-|– helpers/
-|   |– _helper.scss      # Header customer class name for type
-|   |– _variables-dark.scss # bootstrap 5 customer 
-|   |– _variables.scss   # bootstrap 5 customer 
-|
-|– layout/
-|   |– _header.scss      # Header
-|   |– _footer.scss      # Footer
-|
-|– mixin/
-|   |– _breakpoint.scss  # Break points set
-|
-|– pages/
-|   |– _index.scss       # Index 
-|   |– _swiperTest.scss  # Swiper test
-|
-|– utilis/
-|   |– _utilities-customer.scss   # customer utilities 
-|   |– _utilities.scss   # bootstrap 5 customer Utilities
-|
-|– vendors/
-|   |– _bootstrap.scss   # Bootstrap
-|
-`– all.scss             # Main Sass file
-
+assets/
+|  |-images/
+|  |   |– index            # index pic 
+|  |...
+|  |-js/
+|  |   |– collapse.js      # bootstrap 5 customer
+|  |   |– collapse.js.map  # bootstrap 5 customer
+|  |   |– index.js         # index js
+|  |   |– swiper-test.js   # test Swiper
+|  |-sass/
+|  |   |– base/
+|  |   |– _base.scss       # font-family @import & customer reset
+|  |   |– _reboot.scss     # bootstrap 5 reset(normalize) customer
+|  |   |– _root.scss       # bootstrap 5 customer
+|  |– components/
+|  |   |– _buttons.scss     # bootstrap 5 customer Buttons
+|  |   |– _csshake-customer.scss    # csshake Customer set
+|  |   |– _csshake.scss     # csshake origin set
+|  |   |– _forms.scss       # bootstrap 5 customer Form
+|  |   |– _navbar.scss      # bootstrap 5 customer Navbar
+|  |   |– _swiper.scss      # Swiper
+|  |   |– _tools.scss       # csshake origin set
+|  |   |– _whirling.scss    # customer Whirling animate
+|  |– helpers/
+|  |   |– _helper.scss      # Header customer class name for type
+|  |   |– _variables-dark.scss # bootstrap 5 customer 
+|  |   |– _variables.scss   # bootstrap 5 customer 
+|  |– layout/
+|  |   |– _header.scss      # Header
+|  |   |– _footer.scss      # Footer
+|  |– mixin/
+|  |   |– _breakpoint.scss  # Break points set
+|  |– pages/
+|  |   |– _index.scss       # Index 
+|  |   |– _swiperTest.scss  # Swiper test
+|  |– utilis/
+|  |   |– _utilities-customer.scss   # customer utilities 
+|  |   |– _utilities.scss   # bootstrap 5 customer Utilities
+|  |– vendors/
+|  |   |– _bootstrap.scss   # Bootstrap
+|  |- all.scss             # Main Sass file
+、_
 
 ## 🧑‍💻前端
 ![html5](https://camo.githubusercontent.com/49fbb99f92674cc6825349b154b65aaf4064aec465d61e8e1f9fb99da3d922a1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)
