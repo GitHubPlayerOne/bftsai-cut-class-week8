@@ -15,7 +15,6 @@
 
 ## 資料夾結構
 
-
 sass/
 |
 |– base/
@@ -55,7 +54,6 @@ sass/
 |
 |– vendors/
 |   |– _bootstrap.scss   # Bootstrap
-|
 |
 `– all.scss             # Main Sass file
 
