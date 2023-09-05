@@ -29,15 +29,16 @@
 }
 @include xl{
     .h-bg-linear{
-        padding-bottom: 491px;
-        .container:nth-child(2){
+        .container-fluid:nth-child(3){
+            position: relative;
+            overflow: hidden;
             &::before{
                 position: absolute;
                 content: "";
                 width: 200%;
                 height: 1px;
                 background: #B983FFB2;
-                top: 700px;
+                top: 450px;
                 left: -705px;
                 rotate: 19.44deg;
             }
@@ -47,7 +48,7 @@
                 width: 200%;
                 height: 1px;
                 background: #B983FFB2;
-                top: 560px;
+                top: 220px;
                 left: -650px;
                 rotate: -7.89deg;
             }
@@ -76,6 +77,22 @@
         }
         &:active{
             background-color: transparent !important;
+        }
+    }
+}
+@include xxxl{
+    .h-bg-linear{
+        padding-bottom: 0px !important;
+        margin-bottom: -104px;
+        .container-fluid:nth-child(3){
+            &::before{
+                top: 450px;
+                left: -705px;
+            }
+            &::after{
+                top: 220px;
+                left: -650px;
+            }
         }
     }
 }

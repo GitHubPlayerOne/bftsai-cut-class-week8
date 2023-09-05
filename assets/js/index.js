@@ -46,11 +46,11 @@ const swiper = new Swiper('.swiper', {
     }
   });
   
-  $(document).ready(function () {
-    if(jQuery(window).width()>=992){
-      $('.carousel').removeAttr('data-bs-ride',"carousel");
-    }
-    else{
-      $('.carousel').attr('data-bs-ride',"carousel");
-    }
-  });
+$(document).ready(function () {
+  if(jQuery(window).width()>=1920){
+    $('.carousel').removeAttr('data-bs-ride',"carousel");
+  }
+  else{
+    $('.carousel').attr('data-bs-ride',"carousel");
+  }
+});
