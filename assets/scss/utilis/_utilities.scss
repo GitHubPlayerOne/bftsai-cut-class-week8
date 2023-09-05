@@ -56,10 +56,12 @@ $utilities: map-merge(
       values: auto hidden visible scroll,
     ),
     "overflow-x": (
+      responsive: true,
       property: overflow-x,
       values: auto hidden visible scroll,
     ),
     "overflow-y": (
+      responsive: true,
       property: overflow-y,
       values: auto hidden visible scroll,
     ),
@@ -100,19 +102,23 @@ $utilities: map-merge(
       values: static relative absolute fixed sticky
     ),
     "top": (
+      responsive: true,
       property: top,
       values: $position-values
     ),
     "bottom": (
+      responsive: true,
       property: bottom,
       values: $position-values
     ),
     "start": (
+      responsive: true,
       property: left,
       class: start,
       values: $position-values
     ),
     "end": (
+      responsive: true,
       property: right,
       class: end,
       values: $position-values
