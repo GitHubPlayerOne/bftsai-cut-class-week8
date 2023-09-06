@@ -13,7 +13,7 @@ h1{
 }
 .h-radialGradienStyle-3{
     .container-fluid:nth-child(2){
-        .swiper{
+        .index-swiper{
             pointer-events: none;
         }
     }
@@ -97,6 +97,11 @@ h1{
         }
     }
     .h-radialGradienStyle-3{
+        .container-fluid:nth-child(2){
+            .swiper{
+                pointer-events: inherit;
+            }
+        }
         .container:nth-child(3){
             p{
                 left: 0px !important;
@@ -104,15 +109,8 @@ h1{
         }
     }
     .container-fluid:nth-child(6){
-        .product{
+        .col-6>div{
             height: 876px !important;
-        }
-    }
-    .h-radialGradienStyle-3{
-        .container-fluid:nth-child(2){
-            .swiper{
-                pointer-events: inherit;
-            }
         }
     }
 }
@@ -194,11 +192,6 @@ h1{
             width: 55.764075% !important;
         }
     }
-    .container-fluid:nth-child(6){
-        .product{
-            width: 100% !important;
-        }
-    }
 }
 @include xxl{
     .h-bg-linear{
@@ -227,11 +220,6 @@ h1{
         padding-top: 144px !important;
         .carousel{
             height: 560px;
-        }
-    }
-    .container-fluid:nth-child(6){
-        .product{
-            height: 876px !important;
         }
     }
 }
