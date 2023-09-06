@@ -18,6 +18,6 @@
       @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); 
   }
   //example horizontal vertical
-  .shake-horizontal-customer { @include do-shake('shake-horizontal-customer', 200, 0, 0); }
+  .shake-horizontal-customer { @include do-shake('shake-horizontal-customer', 20, 0, 0); }
 
   .shake-vertical-customer { @include do-shake('shake-vertical-customer', 0, 50, 0); }

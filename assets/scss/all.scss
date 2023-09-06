@@ -72,7 +72,7 @@
 @import "../scss/component/navbar";
 //own components
 @import "../scss/component/whirling";
-@import "../scss/component/swiper";
+@import "../scss/component/swiper.scss";
 
 
 @import './layout/header.scss';
@@ -80,6 +80,7 @@
 
 
 @import './pages/index.scss';
+@import './pages/product';
 
 //test page
 @import './pages/swiperTest';

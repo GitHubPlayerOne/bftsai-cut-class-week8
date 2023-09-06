@@ -28,6 +28,12 @@
 .h-background-blend-mode{
     background-blend-mode: darken;
 }
+.h-hover-underline{
+    border-bottom: 2px solid #FFF;
+    &:hover{
+        border-color: #000;
+    }
+}
 @include md{
     .h-bg-linear{
         margin-bottom: -164px;

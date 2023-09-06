@@ -2,7 +2,7 @@
 import Swiper from 'swiper/bundle';
 import { Navigation, Pagination } from 'swiper/modules';
 // init Swiper:
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.index-swiper', {
     // Optional parameters
     direction: 'vertical',
     slidesPerView: 'auto',

@@ -1,0 +1,14 @@
+
+@include xxxl{
+    .container-fluid:nth-child(3){
+        .carousel-item{
+            height: 925px;
+        }
+        .col-12:nth-child(2){
+            a{
+                width: 313.88px;
+                height: 22.6px;
+            }
+        }
+    }
+}
