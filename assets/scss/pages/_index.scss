@@ -1,15 +1,46 @@
+h1{
+    span{
+        letter-spacing: 0em !important;
+    }
+}
+.h-radialGradienStyle-1{
+    .container-fluid:nth-child(2),.container-fluid:nth-child(4){
+        .decorate{
+            width: calc(100% - 24px);
+            height: 40px;
+        }
+    }
+}
+.h-radialGradienStyle-3{
+    .container-fluid:nth-child(2){
+        .swiper-slider{
+            pointer-events: none;
+        }
+    }
+}
 @include md{
-    .typeCenter,.typeSide{
-        height: 680px !important;
-    }
-    .robot:nth-child(3){
-        margin-bottom: 510px !important;
-    }
-    .robot:nth-child(4){
-        top: 2486px !important;
+    .h-bg-linear{
+        .container-fluid:nth-child(3){
+            p{
+                width: 51;
+            }
+            a{
+                width: 24.489796% !important;
+            }
+            a:nth-child(1),a:nth-child(4){
+                height: 451px !important;
+                margin-top: -96px;
+            }
+        }
     }
     .h-radialGradienStyle-1{
-        padding-top: 202px !important;
+        padding-top: 204px !important;
+        .container-fluid:nth-child(2),.container-fluid:nth-child(4){
+            .decorate{
+                width: calc(100% - 24px);
+                height: 40px;
+            }
+        }
     }
     .h-radialGradienStyle-3{
         .container:nth-child(3){
@@ -18,30 +49,51 @@
             }
         }
     }
+    .container-fluid:nth-child(6){
+        .product{
+            height: 576px !important;
+        }
+    }
 }
 @include lg{
-    .width416{
-        width: 416px;
+    .h-bg-linear{
+        .container-fluid:nth-child(3){
+            a:nth-child(1){
+                background: url(../assets/images/index/diane.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a:nth-child(2){
+                background: url(../assets/images/index/felix.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a:nth-child(3){
+                background: url(../assets/images/index/karina.svg) center center no-repeat !important;
+                background-size: cover !important;
+                margin-bottom: 0 !important;
+            }
+            a:nth-child(4){
+                background: url(../assets/images/index/vito.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a{
+                width: 24.489796% !important;
+            }
+            a:nth-child(1),a:nth-child(4){
+                height: 476px !important;
+                margin-top: -96px;
+            }
+            a:nth-child(2),a:nth-child(3){
+                height: 380px !important;
+            }
+            p{
+                width: 49.6599%;
+            }
+        }
     }
-    .typeCenter,.typeSide{
-        width: 16.403785% !important;
-    }
-    .typeSide{
-        height: 676px !important;
-        margin-top: -96px;
-    }
-    .typeCenter{
-        height: 580px !important;
-    }
-    // .robot:nth-child(3){
-    //     margin-bottom: 580px !important;
-    // }
-    // .robot:nth-child(4){
-    //     top: 3291px !important;
-    // }
     .h-radialGradienStyle-1{
+        padding-top: 204px !important;
         .carousel{
-            height: 405px !important;
+            height: 360px !important;
         }
     }
     .h-radialGradienStyle-3{
@@ -51,49 +103,63 @@
             }
         }
     }
-    .container:nth-child(6){
+    .container-fluid:nth-child(6){
         .product{
-            height: 1040px !important;
+            height: 876px !important;
+        }
+    }
+    .h-radialGradienStyle-3{
+        .container-fluid:nth-child(2){
+            .swiper-slider{
+                pointer-events: inherit;
+            }
         }
     }
 }
 @include xl{
-    // h1{
-    //     margin-right: -80px !important;
-    //     span{
-    //         letter-spacing: 2.5em !important;
-    //     }
-    // }
-    .typeCenter,.typeSide{
-        width: 16.403785% !important;
-    }
-    .typeSide{
-        height: 676px !important;
-        margin-top: -96px;
-    }
-    .typeCenter{
-        height: 580px !important;
-    }
-    .robot:nth-child(1){
-        background: url(../assets/images/index/diane.svg) center center no-repeat !important;
-        background-size: cover !important;
-    }
-    .robot:nth-child(2){
-        background: url(../assets/images/index/felix.svg) center center no-repeat !important;
-        background-size: cover !important;
-    }
-    .robot:nth-child(3){
-        background: url(../assets/images/index/karina.svg) center center no-repeat !important;
-        background-size: cover !important;
-        margin-bottom: 0 !important;
-    }
-    .robot:nth-child(4){
-        background: url(../assets/images/index/vito.svg) center center no-repeat !important;
-        background-size: cover !important;
+    .h-bg-linear{
+        .container-fluid:nth-child(2){
+            a,div:nth-child(3){
+                width: 26.1% !important;
+            }
+        }
+        .container-fluid:nth-child(3){
+            a:nth-child(1){
+                background: url(../assets/images/index/diane.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a:nth-child(2){
+                background: url(../assets/images/index/felix.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a:nth-child(3){
+                background: url(../assets/images/index/karina.svg) center center no-repeat !important;
+                background-size: cover !important;
+                margin-bottom: 0 !important;
+            }
+            a:nth-child(4){
+                background: url(../assets/images/index/vito.svg) center center no-repeat !important;
+                background-size: cover !important;
+            }
+            a{
+                width: 24.489796% !important;
+            }
+            a:nth-child(1),a:nth-child(4){
+                height: 576px !important;
+                margin-top: -96px;
+            }
+            a:nth-child(2),a:nth-child(3){
+                height: 480px !important;
+            }
+            p{
+                width: 49.6599%;
+            }
+        }
     }
     .h-radialGradienStyle-1{
+        padding-top: 244px !important;
         .carousel{
-            height: 560px !important;
+            height: 460px !important;
         }
     }
     .ge-xl-0{
@@ -128,36 +194,40 @@
             width: 55.764075% !important;
         }
     }
-    body{
-        .container:nth-child(6){
-            height: 876px;
-        }
-    }
     .container-fluid:nth-child(6){
         .product{
-            width: calc(100%) !important;
-            height: 876px !important;
+            width: 100% !important;
         }
     }
 }
 @include xxl{
-    h1{
-        span{
-            letter-spacing: 2.5em !important;
+    .h-bg-linear{
+        .container-fluid:nth-child(2){
+            a,div:nth-child(3){
+                width: 23.636364% !important;
+            }
         }
-    }
-    .typeCenter,.typeSide{
-        width: 16.403785% !important;
-    }
-    .typeSide{
-        height: 676px !important;
-        margin-top: -96px;
-    }
-    .typeCenter{
-        height: 580px !important;
+        .container-fluid:nth-child(3){
+            a{
+                width: 23.636364% !important;
+            }
+            a:nth-child(1),a:nth-child(4){
+                height: 676px !important;
+                margin-top: -96px;
+            }
+            a:nth-child(2),a:nth-child(3){
+                height: 580px !important;
+            }
+            p{
+                width: 100%;
+            }
+        }
     }
     .h-radialGradienStyle-1{
         padding-top: 144px !important;
+        .carousel{
+            height: 560px;
+        }
     }
     .container-fluid:nth-child(6){
         .product{
@@ -166,27 +236,33 @@
     }
 }
 @include xxxl{
-    .width416{
-        width: 416px;
+    .h-bg-linear{
+        .container-fluid:nth-child(2){
+            a,div:nth-child(3){
+                width: 416px !important;
+            }
+        }
+        .container-fluid:nth-child(3){
+            a{
+                width: 416px !important;
+            }
+        }
     }
-    .typeCenter,.typeSide{
-        width: 416px !important;
-    }
-    .typeSide{
-        height: 676px !important;
-        margin-top: -96px;
+    h1{
+        span{
+            letter-spacing: 2.5em !important;
+        }
     }
     .h-radialGradienStyle-1{
-        padding-top: 144px !important;
         .container:nth-child(3){
             button{
                 display: block !important;
             }
         }
-    }
-    .container-fluid:nth-child(6){
-        .product{
-            height: 876px !important;
+        .container-fluid:nth-child(2),.container-fluid:nth-child(4){
+            .decorate{
+                width: calc(100% - 160px);
+            }
         }
     }
 }

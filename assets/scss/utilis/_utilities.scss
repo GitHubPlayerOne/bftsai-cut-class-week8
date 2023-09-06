@@ -834,6 +834,7 @@ $utilities: map-merge(
     // scss-docs-end utils-visibility
     // scss-docs-start utils-zindex
     "z-index": (
+      responsive: true,
       property: z-index,
       class: z,
       values: $zindex-levels,

@@ -1,5 +1,6 @@
 .h-bg-linear{
     background: linear-gradient(#7000FF,#11002D);
+    margin-bottom: -104px;
 }
 .h-bg-transparent{
     background-color: transparent;
@@ -27,29 +28,41 @@
 .h-background-blend-mode{
     background-blend-mode: darken;
 }
+@include md{
+    .h-bg-linear{
+        margin-bottom: -164px;
+    }
+}
+@include lg{
+    .h-bg-linear{
+        margin-bottom: -164px;
+    }
+}
 @include xl{
     .h-bg-linear{
+        padding-bottom: 0px !important;
+        margin-bottom: -204px;
+        overflow: hidden;
         .container-fluid:nth-child(3){
             position: relative;
-            overflow: hidden;
             &::before{
                 position: absolute;
                 content: "";
-                width: 200%;
+                width: 120.28375%;
                 height: 1px;
                 background: #B983FFB2;
-                top: 450px;
-                left: -705px;
+                top: 371px;
+                left: -105px;
                 rotate: 19.44deg;
             }
             &::after{
                 position: absolute;
                 content: "";
-                width: 200%;
+                width: 120.28375%;
                 height: 1px;
                 background: #B983FFB2;
-                top: 220px;
-                left: -650px;
+                top: 243px;
+                left: -255px;
                 rotate: -7.89deg;
             }
         }
@@ -80,19 +93,8 @@
         }
     }
 }
-@include xxxl{
+@include xxl{
     .h-bg-linear{
-        padding-bottom: 0px !important;
         margin-bottom: -104px;
-        .container-fluid:nth-child(3){
-            &::before{
-                top: 450px;
-                left: -705px;
-            }
-            &::after{
-                top: 220px;
-                left: -650px;
-            }
-        }
     }
 }
