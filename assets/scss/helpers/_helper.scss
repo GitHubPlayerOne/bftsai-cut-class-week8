@@ -5,15 +5,10 @@
 .h-bg-transparent{
     background-color: transparent;
 }
-.iconSize-24{
-    display: block;
-    width: 24px;
-    height: 24px;
-}
 .h-boxshaw:hover{
     box-shadow: 0 0 16px 8px rgba(143, 0, 255, 0.8);
 }
-.aHoverPrimary:hover{
+.h-a-HoverPrimary:hover{
     color: $primary !important;
 }
 .h-radialGradienStyle-1{
@@ -24,6 +19,9 @@
 }
 .h-radialGradienStyle-3{
     background: radial-gradient(#000000,#28085C);
+}
+.h-radialGradienStyle-4{
+    background: radial-gradient(#300871,#000000);
 }
 .h-background-blend-mode{
     background-blend-mode: darken;
@@ -37,15 +35,7 @@
     opacity: 0;
 }
 
-@include md{
-    .h-bg-linear{
-        margin-bottom: -164px;
-    }
-}
 @include lg{
-    .h-bg-linear{
-        margin-bottom: -164px;
-    }
     .h-lg-hover-underline{
         border-bottom: 2px solid #FFF;
         &:hover{
@@ -54,34 +44,6 @@
     }
 }
 @include xl{
-    .h-bg-linear{
-        padding-bottom: 0px !important;
-        margin-bottom: -204px;
-        overflow: hidden;
-        .container-fluid:nth-child(3){
-            position: relative;
-            &::before{
-                position: absolute;
-                content: "";
-                width: 120.28375%;
-                height: 1px;
-                background: #B983FFB2;
-                top: 371px;
-                left: -105px;
-                rotate: 19.44deg;
-            }
-            &::after{
-                position: absolute;
-                content: "";
-                width: 120.28375%;
-                height: 1px;
-                background: #B983FFB2;
-                top: 243px;
-                left: -255px;
-                rotate: -7.89deg;
-            }
-        }
-    }
     .h-radialGradienStyle-1{
         background: radial-gradient(#300871,#000000);
     }
@@ -107,10 +69,5 @@
         &:active{
             background-color: transparent !important;
         }
-    }
-}
-@include xxl{
-    .h-bg-linear{
-        margin-bottom: -104px;
     }
 }

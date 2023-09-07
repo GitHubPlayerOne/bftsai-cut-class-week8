@@ -1,0 +1,37 @@
+.about{
+
+}
+@include xxxl{
+    .about{
+        .h-radialGradienStyle-4{
+            .fw-medium:nth-child(1){
+                width: 48.996914%;
+            }
+            .banner{
+                height: 280px !important;
+            }
+            .container:nth-child(3){
+                img{
+                    width: 80px !important;
+                    height: 80px !important;
+                    margin-right: 25px !important;
+                }
+            }
+        }
+        .img-group>img{
+            width: 29.535865% !important; //560px
+        }
+        .bg-white{
+            .d-flex:nth-child(3){
+                width: 92.827004% !important;
+                p:nth-child(1){
+                    width: 43.068182% !important;
+                }
+                p:nth-child(2){
+                    width: 32.954546% !important;
+                }
+            }
+            
+        }
+    }
+}
