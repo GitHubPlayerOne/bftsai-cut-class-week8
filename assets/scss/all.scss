@@ -59,12 +59,8 @@
 @import "../scss/component/csshake-customer";
 
 //swiper
-// core version + navigation, pagination modules:
-// import Swiper and modules styles
-@import 'swiper/css';
+// import styles bundle
 @import 'swiper/css/bundle';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
 
 
 //bootstrap customer components
@@ -80,7 +76,7 @@
 
 
 @import './pages/index.scss';
-@import './pages/product';
+@import './pages/product.scss';
 
 //test page
-@import './pages/swiperTest';
+//@import './pages/swiperTest';

@@ -1,6 +1,9 @@
 // core version + navigation, pagination modules:
+//import Swiper from 'swiper'; haven't scroll bar
 import Swiper from 'swiper/bundle';
-import { Navigation, Pagination } from 'swiper/modules';
+
+// import 'swiper/css/bundle'; already import at all.scss
+
 // init Swiper:
 const swiper = new Swiper('.index-swiper', {
     // Optional parameters
@@ -34,7 +37,7 @@ const swiper = new Swiper('.index-swiper', {
       992: {
         enabled: true, //web need reorganize
         direction: 'horizontal',
-        slidesPerView: '3',
+        slidesPerView: '2',
         spaceBetween: 24,
 
         scrollbar: {
@@ -43,6 +46,12 @@ const swiper = new Swiper('.index-swiper', {
           draggable: true, //設置為true 可用滑鼠拖曳滾動條
         },
       },
+      1920: {
+        enabled: true, //web need reorganize
+        slidesPerView: '3',
+        spaceBetween: 24,
+        direction: 'horizontal',
+      }
     }
   });
   

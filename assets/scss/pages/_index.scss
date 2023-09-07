@@ -1,26 +1,13 @@
-h1{
-    span{
-        letter-spacing: 0em !important;
-    }
-}
-.h-radialGradienStyle-1{
-    .container-fluid:nth-child(2),.container-fluid:nth-child(4){
-        .decorate{
-            width: calc(100% - 24px);
-            height: 40px;
-        }
-    }
-}
-.h-radialGradienStyle-3{
+.index.h-radialGradienStyle-3{
     .container-fluid:nth-child(2){
         .index-swiper{
-            pointer-events: none;
+            overflow: initial;
         }
     }
 }
 @include md{
-    .h-bg-linear{
-        .container-fluid:nth-child(3){
+    .index.h-bg-linear{
+        .container-fluid:nth-child(2){
             p{
                 width: 51%;
             }
@@ -33,31 +20,30 @@ h1{
             }
         }
     }
-    .h-radialGradienStyle-1{
+    .index.h-radialGradienStyle-1{
         padding-top: 204px !important;
         .container-fluid:nth-child(2),.container-fluid:nth-child(4){
             .decorate{
-                width: calc(100% - 24px);
-                height: 40px;
+                width: calc(100% - 24px) !important;
             }
         }
     }
-    .h-radialGradienStyle-3{
+    .index.h-radialGradienStyle-3{
         .container:nth-child(3){
             p{
                 left: -30px !important;
             }
         }
     }
-    .container-fluid:nth-child(6){
+    .index.productArea{
         .product{
             height: 576px !important;
         }
     }
 }
 @include lg{
-    .h-bg-linear{
-        .container-fluid:nth-child(3){
+    .index.h-bg-linear{
+        .container-fluid:nth-child(2){
             a:nth-child(1){
                 background: url(../assets/images/index/diane.svg) center center no-repeat !important;
                 background-size: cover !important;
@@ -90,38 +76,33 @@ h1{
             }
         }
     }
-    .h-radialGradienStyle-1{
+    .index.h-radialGradienStyle-1{
         padding-top: 204px !important;
         .carousel{
             height: 360px !important;
         }
     }
-    .h-radialGradienStyle-3{
-        .container-fluid:nth-child(2){
-            .swiper{
-                pointer-events: inherit;
-            }
-        }
+    .index.h-radialGradienStyle-3{
         .container:nth-child(3){
             p{
                 left: 0px !important;
             }
         }
     }
-    .container-fluid:nth-child(6){
+    .index.productArea{
         .col-6>div{
             height: 876px !important;
         }
     }
 }
 @include xl{
-    .h-bg-linear{
-        .container-fluid:nth-child(2){
+    .index.h-bg-linear{
+        .container-fluid:nth-child(1){
             a,div:nth-child(3){
                 width: 26.1% !important;
             }
         }
-        .container-fluid:nth-child(3){
+        .container-fluid:nth-child(2){
             a:nth-child(1){
                 background: url(../images/index/diane.svg) center center no-repeat !important;
                 background-size: cover !important;
@@ -154,7 +135,7 @@ h1{
             }
         }
     }
-    .h-radialGradienStyle-1{
+    .index.h-radialGradienStyle-1{
         padding-top: 244px !important;
         .carousel{
             height: 460px !important;
@@ -166,7 +147,7 @@ h1{
     .gs-xl-0{
         margin-left: -12px;
     }
-    .h-radialGradienStyle-3{
+    .index.h-radialGradienStyle-3{
         .container:nth-child(3){
             p{
                 font-size: 400px !important;
@@ -175,7 +156,7 @@ h1{
             }
         }
     }
-    .bg-quinary{
+    .index.bg-quinary{
         .img-group{
             img{
                 line-height: 12px !important;
@@ -194,13 +175,13 @@ h1{
     }
 }
 @include xxl{
-    .h-bg-linear{
-        .container-fluid:nth-child(2){
+    .index.h-bg-linear{
+        .container-fluid:nth-child(1){
             a,div:nth-child(3){
                 width: 23.636364% !important;
             }
         }
-        .container-fluid:nth-child(3){
+        .container-fluid:nth-child(2){
             a{
                 width: 23.636364% !important;
             }
@@ -216,7 +197,7 @@ h1{
             }
         }
     }
-    .h-radialGradienStyle-1{
+    .index.h-radialGradienStyle-1{
         padding-top: 144px !important;
         .carousel{
             height: 560px;
@@ -224,24 +205,19 @@ h1{
     }
 }
 @include xxxl{
-    .h-bg-linear{
-        .container-fluid:nth-child(2){
+    .index.h-bg-linear{
+        .container-fluid:nth-child(1){
             a,div:nth-child(3){
                 width: 416px !important;
             }
         }
-        .container-fluid:nth-child(3){
+        .container-fluid:nth-child(2){
             a{
                 width: 416px !important;
             }
         }
     }
-    h1{
-        span{
-            letter-spacing: 2.5em !important;
-        }
-    }
-    .h-radialGradienStyle-1{
+    .index.h-radialGradienStyle-1{
         .container:nth-child(3){
             button{
                 display: block !important;

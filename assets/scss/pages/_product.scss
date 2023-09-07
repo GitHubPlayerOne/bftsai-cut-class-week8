@@ -1,14 +1,67 @@
-
-@include xxxl{
-    .container-fluid:nth-child(3){
-        .carousel-item{
-            height: 925px;
-        }
-        .col-12:nth-child(2){
-            a{
-                width: 313.88px;
-                height: 22.6px;
+.Diane,.Felix,.Karina,.Vito{
+    transition: ease 8s;
+}
+@include sm{
+    .productPage{
+        .container-fluid:nth-child(1){
+            .carousel-item{
+                height: 576px !important;
+            }
+            .col-12:nth-child(1)>div{
+                padding-bottom: 199px !important;
+            }
+            .position-absolute{
+                bottom: 48px !important;
             }
         }
     }
 }
+@include lg{
+    .productPage{
+        .container-fluid:nth-child(1){
+            .carousel-item{
+                height: 925px !important;
+            }
+            button>img{
+                width: 80px !important;
+                height: 80px !important;
+            }
+            .col-12:nth-child(1)>div{
+                padding-bottom: 0px !important;
+            }
+            .shake-horizontal-customer{
+                width: 313.88px !important;
+                height: 22.6px !important;
+            }
+            a:nth-child(5){
+                width: 196px !important;
+                height: 196px !important;
+                left: calc(50% - 98px) !important;
+                bottom: 60px !important;
+            }
+        }
+    }
+}
+// @include xxxl{
+//     .productPage{
+//         .container-fluid:nth-child(2){
+//             .carousel-item{
+//                 height: 925px !important;
+//             }
+//             button>img{
+//                 width: 80px !important;
+//                 height: 80px !important;
+//             }
+//             .shake-horizontal-customer{
+//                 width: 313.88px !important;
+//                 height: 22.6px !important;
+//             }
+//             a:nth-child(5){
+//                 width: 196px !important;
+//                 height: 196px !important;
+//                 left: calc(50% - 98px) !important;
+//                 bottom: 60px !important;
+//             }
+//         }
+//     }
+// }

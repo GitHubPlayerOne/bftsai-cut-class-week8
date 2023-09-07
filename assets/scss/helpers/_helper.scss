@@ -28,12 +28,16 @@
 .h-background-blend-mode{
     background-blend-mode: darken;
 }
-.h-hover-underline{
-    border-bottom: 2px solid #FFF;
-    &:hover{
-        border-color: #000;
-    }
+.h-lg-hover-underline{
+    border-bottom: 2px solid #000;
 }
+
+//animate
+.h-fadeToggle{
+    transition: ease 8s !important;
+    opacity: 0;
+}
+
 @include md{
     .h-bg-linear{
         margin-bottom: -164px;
@@ -42,6 +46,12 @@
 @include lg{
     .h-bg-linear{
         margin-bottom: -164px;
+    }
+    .h-lg-hover-underline{
+        border-bottom: 2px solid #FFF;
+        &:hover{
+            border-color: #000;
+        }
     }
 }
 @include xl{

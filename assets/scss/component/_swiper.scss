@@ -1,12 +1,13 @@
-.index-swiper{
-    overflow: initial;
+.swiper{
+    pointer-events: none;
     .swiper-slide{
         width: 351px !important;
         height: 351px !important;
     }
 }
 @include lg{
-    .index-swiper{
+    .swiper{
+        pointer-events: inherit;
         .swiper-slide{
             width: 288px !important;
             height: 288px !important;
@@ -20,7 +21,7 @@
     }
 }
 @include xl{
-    .index-swiper{
+    .swiper{
         //overflow: initial;
         .swiper-slide{
             width: 416px !important;

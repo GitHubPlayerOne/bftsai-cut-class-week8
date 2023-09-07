@@ -8,181 +8,585 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    
-    <div class="container d-flex justify-content-lg-center">
-      <div class="btn-group py-lg-4">
-        <div class="btn fs-lg-10 py-lg-1 px-lg-20 mx-lg-3 active" style="border-radius: 40px;">Diane</div>
-        <div class="btn fs-lg-10 py-lg-1 px-lg-20 mx-lg-3" style="border-radius: 40px;">Felix</div>
-        <div class="btn fs-lg-10 py-lg-1 px-lg-20 mx-lg-3" style="border-radius: 40px;">Karina</div>
-        <div class="btn fs-lg-10 py-lg-1 px-lg-20 mx-lg-3" style="border-radius: 40px;">Vito</div>
-      </div>
-    </div>
-    <div class="container-fluid g-0">
-      <div class="row g-0 position-lg-relative">
-        <div class="col-12 col-lg-6">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/images/product/diane_square1.png" class="d-block w-100 object-fit-cover" alt="Diane pic">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/images/product/diane_square2.png" class="d-block w-100 object-fit-cover" alt="Diane pic">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-              <img src="../assets/images/product/arrow_circle_left.svg" alt="Previous button" style="width: 80px; height: 80px;">
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-              <img src="../assets/images/product/arrow_circle_right.svg" alt="Next button" style="width: 80px; height: 80px;">
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="ps-lg-10 h-100 d-flex flex-column justify-content-lg-center">
-            <h1 class="fs-lg-2 mb-lg-6">Diane</h1>
-            <p class="fw-bold">知識型</p>
-            <p class="mb-lg-4">學術領導/知識分享/智能問答</p>
-            <a href="#" class="shake-horizontal-customer d-block">
-              <img src="../assets/images/product/line_end_arrow_tologin.svg" alt="arrow button to login">
-            </a>
-            <a href="#" class="position-relative position-lg-absolute" style="width: 196px; height: 196px; left: calc(50% - 98px); bottom: 60px;">
-              <img src="../assets/images/product/arrow_downward.svg" alt="arrow down pic" class="position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;">
-              <img src="../assets/images/product/whirling.svg" class="whirling" alt="whirling pic">
-            </a>
-          </div>
+    <div class="productPage pagination">
+      <div class="container d-flex justify-content-center">
+        <div class="btn-group py-4">
+          <div class="btn fs-lg-10 fst-italic py-1 px-4 px-lg-10 px-xl-20 mx-1 mx-lg-3 Diane active" style="border-radius: 40px;">Diane</div>
+          <div class="btn fs-lg-10 fst-italic py-1 px-4 px-lg-10 px-xl-20 mx-1 mx-lg-3 Felix" style="border-radius: 40px;">Felix</div>
+          <div class="btn fs-lg-10 fst-italic py-1 px-4 px-lg-10 px-xl-20 mx-1 mx-lg-3 Karina" style="border-radius: 40px;">Karina</div>
+          <div class="btn fs-lg-10 fst-italic py-1 px-4 px-lg-10 px-xl-20 mx-1 mx-lg-3 Vito" style="border-radius: 40px;">Vito</div>
         </div>
       </div>
     </div>
-    <div class="bg-white text-black pt-lg-20 pb-lg-22">
-      <div class="container">
-        <div class="row justify-content-lg-between mb-lg-22">
-          <div class="col-lg-4">
-            <p class="fs-lg-6 fw-medium mb-lg-8"><img src="../assets/images/product/multiply-black-icon.svg" alt="multiply black icon" me-lg-3 style="width: 40px; height: 40px;">學術領導/ 知識分享/ 智能問答</p>
-            <p class="fw-medium font-noto">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Felix！</p>
-          </div>
-          <div class="col-lg-4">
-            <p class="font-noto fs-lg-6 fw-medium text-end">ALPHABOX+</p>
-          </div>
-        </div>
-        <ul class="row list-unstyled mb-lg-21">
-          <li class="col-lg-4">
-            <h2 class="fs-7 font-noto fw-bold mb-lg-6 h-hover-underline">先進的3D投影技術</h2>
-            <p class="font-noto">Diane 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
-          </li>
-          <li class="col-lg-4">
-            <h2 class="fs-7 font-noto fw-bold mb-lg-6 h-hover-underline">人性化的互動設計</h2>
-            <p class="font-noto">Diane 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Diane 進行自然、流暢的對話。</p>
-          </li>
-          <li class="col-lg-4">
-            <h2 class="fs-7 font-noto fw-bold mb-lg-6 h-hover-underline">豐富的應用場景</h2>
-            <p class="font-noto">無論是家庭娛樂、教育培訓還是商業展示，Diane 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
-          </li>
-        </ul>
-        <ul class="row list-unstyled">
-          <li class="col-lg-4">
-            <h2 class="fs-7 font-noto fw-bold mb-lg-6 h-hover-underline">高度自主性</h2>
-            <p class="font-noto">Diane 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
-          </li>
-          <li class="col-lg-4">
-            <h2 class="fs-7 font-noto fw-bold mb-lg-6 h-hover-underline">簡單易用的操作界面</h2>
-            <p class="font-noto">Diane 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="h-radialGradienStyle-2 pt-lg-25 pb-lg-29">
-      <div class="container">
-        <div class="row mb-lg-3">
-          <div class="col col-lg-4">
-            <h2 class="fs-lg-3 fw-bold letterspc-lg-100">使用分享</h2>
-          </div>
-        </div>
-        <div class="row mb-lg-20">
-          <div class="col col-lg-4">
-            <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <!-- Slider main container -->
-        <div class="swiper productDianeswiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide p-lg-10 bg-quaternary">
-              <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
-              <p class="font-noto fw-bold">
-                自從家裡有了Felix，孩子們的學習興趣提高了不少，他們都喜歡透過Felix的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-            <div class="swiper-slide p-lg-10 bg-white text-black">
-              <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
-              <p class="font-noto fw-bold">
-                自從公司引入 Felix，員工的工作效率提升了很多。Felix 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-            <div class="swiper-slide p-lg-10 bg-quaternary">
-              <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
-              <p class="font-noto fw-bold">
-                Felix 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Felix給所有的教育工作者！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-            <div class="swiper-slide p-lg-10 bg-quaternary">
-              <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
-              <p class="font-noto fw-bold">
-                自從家裡有了Felix，孩子們的學習興趣提高了不少，他們都喜歡透過Felix的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-            <div class="swiper-slide p-lg-10 bg-white text-black">
-              <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
-              <p class="font-noto fw-bold">
-                自從公司引入 Felix，員工的工作效率提升了很多。Felix 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-            <div class="swiper-slide p-lg-10 bg-quaternary">
-              <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
-              <p class="font-noto fw-bold">
-                Felix 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Felix給所有的教育工作者！
-              </p>
-              <p class="font-noto fw-bold mt-auto d-flex align-items-center">
-                <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
-                ALPHABOX+ Felix
-              </p>
-            </div>
-          </div>
-          <!-- If we need pagination -->
-          <!-- <div class="swiper-pagination"></div> -->
 
-          <!-- If we need navigation buttons -->
-          <!-- <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div> -->
+    <!-- Diane -->
+    <div class="productPage Diane">
+      <div class="container-fluid g-0">
+        <div class="row g-0 position-relative">
+          <div class="col-12 col-lg-6">
+            <div id="carouselDiane" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 375px;">
+                  <img src="../assets/images/product/diane_square1.png" class="d-block w-100 h-100 object-fit-cover" alt="Diane pic">
+                </div>
+                <div class="carousel-item" style="height: 375px;">
+                  <img src="../assets/images/product/diane_square2.png" class="d-block w-100 h-100 object-fit-cover" alt="Diane pic">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselDiane" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_left.svg" alt="Previous button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselDiane" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_right.svg" alt="Next button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="ps-3 ps-lg-10 h-100 pt-4 py-lg-0 d-flex flex-column justify-content-lg-center" style="padding-bottom: 149px;">
+              <h1 class="fs-4 fs-lg-2 mb-0 mb-lg-6">Diane</h1>
+              <p class="fw-bold">知識型</p>
+              <p class="mb-2 mb-lg-4">學術領導/知識分享/智能問答</p>
+              <a href="#" class="shake-horizontal-customer d-block" style="width: 96px; height: 24px;">
+                <img src="../assets/images/product/line_end_arrow_tologin.svg" alt="arrow button to login">
+              </a>
+              <a href="#" class="position-relative position-absolute" style="width: 109px; height: 109px; left: calc(50% - 54.5px); bottom: 24px;">
+                <img src="../assets/images/product/arrow_downward.svg" alt="arrow down pic" class="position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;">
+                <img src="../assets/images/product/whirling.svg" class="whirling" alt="whirling pic">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white text-black pt-15 pt-lg-20 pb-14 pb-lg-22">
+        <div class="container">
+          <div class="row justify-content-lg-between mb-8 mb-lg-22">
+            <div class="col-lg-5 col-xl-4">
+              <p class="fs-lg-6 fw-medium mb-6 mb-lg-8"><img src="../assets/images/product/multiply-black-icon.svg" alt="multiply black icon" class="me-3" style="width: 40px; height: 40px;">學術領導/ 知識分享/ 智能問答</p>
+              <p class="fw-medium font-noto">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Diane</p>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <p class="font-noto fs-lg-6 fw-medium text-end">ALPHABOX+</p>
+            </div>
+          </div>
+          <ul class="row list-unstyled mb-0 mb-lg-21">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">先進的3D投影技術</h2>
+              <p class="font-noto">Diane 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">人性化的互動設計</h2>
+              <p class="font-noto">Diane 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Diane 進行自然、流暢的對話。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">豐富的應用場景</h2>
+              <p class="font-noto">無論是家庭娛樂、教育培訓還是商業展示，Diane 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+            </li>
+          </ul>
+          <ul class="row list-unstyled mb-0">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">高度自主性</h2>
+              <p class="font-noto">Diane 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">簡單易用的操作界面</h2>
+              <p class="font-noto">Diane 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-radialGradienStyle-2 pt-15 pt-lg-25 pb-14 pb-lg-29">
+        <div class="container">
+          <div class="row mb-4 mb-lg-3">
+            <div class="col col-lg-6 col-xxl-4">
+              <h2 class="fs-4 fs-lg-3 fw-bold letterspc-lg-100 mb-0">使用分享</h2>
+            </div>
+          </div>
+          <div class="row mb-6 mb-lg-20">
+            <div class="col col-lg-4">
+              <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper productDianeswiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper align-items-center">
+              <!-- Slides -->
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
+                <p class="font-noto fw-bold">
+                  自從家裡有了Diane，孩子們的學習興趣提高了不少，他們都喜歡透過Diane的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Diane
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-white text-black">
+                <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
+                <p class="font-noto fw-bold">
+                  自從公司引入 Diane，員工的工作效率提升了很多。Diane 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Diane
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
+                <p class="font-noto fw-bold">
+                  Diane 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Diane給所有的教育工作者！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Diane
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+  
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
+    <!-- Felix -->
+    <div class="productPage h-fadeToggle Felix d-none">
+      <div class="container-fluid g-0">
+        <div class="row g-0 position-relative">
+          <div class="col-12 col-lg-6">
+            <div id="carouselFelix" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 375px;">
+                  <img src="../assets/images/product/felix_square1.png" class="d-block w-100 h-100 object-fit-cover" alt="Felix pic">
+                </div>
+                <div class="carousel-item" style="height: 375px;">
+                  <img src="../assets/images/product/felix_square2.png" class="d-block w-100 h-100 object-fit-cover" alt="Felix pic">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFelix" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_left.svg" alt="Previous button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFelix" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_right.svg" alt="Next button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="ps-3 ps-lg-10 h-100 pt-4 py-lg-0 d-flex flex-column justify-content-lg-center" style="padding-bottom: 149px;">
+              <h1 class="fs-4 fs-lg-2 mb-0 mb-lg-6">Felix</h1>
+              <p class="fw-bold">娛樂型</p>
+              <p class="mb-2 mb-lg-4">音樂播放/ 語音互動/ 遊戲陪伴</p>
+              <a href="#" class="shake-horizontal-customer d-block" style="width: 96px; height: 24px;">
+                <img src="../assets/images/product/line_end_arrow_tologin.svg" alt="arrow button to login">
+              </a>
+              <a href="#" class="position-relative position-absolute" style="width: 109px; height: 109px; left: calc(50% - 54.5px); bottom: 24px;">
+                <img src="../assets/images/product/arrow_downward.svg" alt="arrow down pic" class="position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;">
+                <img src="../assets/images/product/whirling.svg" class="whirling" alt="whirling pic">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white text-black pt-15 pt-lg-20 pb-14 pb-lg-22">
+        <div class="container">
+          <div class="row justify-content-lg-between mb-8 mb-lg-22">
+            <div class="col-lg-5 col-xl-4">
+              <p class="fs-lg-6 fw-medium mb-6 mb-lg-8"><img src="../assets/images/product/multiply-black-icon.svg" alt="multiply black icon" class="me-3" style="width: 40px; height: 40px;">音樂播放/ 語音互動/ 遊戲陪伴</p>
+              <p class="fw-medium font-noto">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Felix！</p>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <p class="font-noto fs-lg-6 fw-medium text-end">ALPHABOX+</p>
+            </div>
+          </div>
+          <ul class="row list-unstyled mb-0 mb-lg-21">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">先進的3D投影技術</h2>
+              <p class="font-noto">Felix 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">人性化的互動設計</h2>
+              <p class="font-noto">Felix 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Felix 進行自然、流暢的對話。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">豐富的應用場景</h2>
+              <p class="font-noto">無論是家庭娛樂、教育培訓還是商業展示，Felix 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+            </li>
+          </ul>
+          <ul class="row list-unstyled mb-0">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">高度自主性</h2>
+              <p class="font-noto">Felix 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">簡單易用的操作界面</h2>
+              <p class="font-noto">Felix 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-radialGradienStyle-2 pt-15 pt-lg-25 pb-14 pb-lg-29">
+        <div class="container">
+          <div class="row mb-4 mb-lg-3">
+            <div class="col col-lg-6 col-xxl-4">
+              <h2 class="fs-4 fs-lg-3 fw-bold letterspc-lg-100 mb-0">使用分享</h2>
+            </div>
+          </div>
+          <div class="row mb-6 mb-lg-20">
+            <div class="col col-lg-4">
+              <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper productDianeswiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper align-items-center">
+              <!-- Slides -->
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
+                <p class="font-noto fw-bold">
+                  自從家裡有了Felix，孩子們的學習興趣提高了不少，他們都喜歡透過Felix的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Felix
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-white text-black">
+                <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
+                <p class="font-noto fw-bold">
+                  自從公司引入 Felix，員工的工作效率提升了很多。Felix 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Felix
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
+                <p class="font-noto fw-bold">
+                  Felix 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Felix給所有的教育工作者！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Felix
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+  
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Karina -->
+    <div class="productPage h-fadeToggle Karina d-none">
+      <div class="container-fluid g-0">
+        <div class="row g-0 position-relative">
+          <div class="col-12 col-lg-6">
+            <div id="carouselKarina" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 375px;">
+                  <img src="../assets/images/product/karina_square1.png" class="d-block w-100 h-100 object-fit-cover" alt="Karina pic">
+                </div>
+                <div class="carousel-item" style="height: 375px;">
+                  <img src="../assets/images/product/karina_square2.png" class="d-block w-100 h-100 object-fit-cover" alt="Karina pic">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselKarina" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_left.svg" alt="Previous button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselKarina" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_right.svg" alt="Next button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="ps-3 ps-lg-10 h-100 pt-4 py-lg-0 d-flex flex-column justify-content-lg-center" style="padding-bottom: 149px;">
+              <h1 class="fs-4 fs-lg-2 mb-0 mb-lg-6">Karina</h1>
+              <p class="fw-bold">生活型</p>
+              <p class="mb-2 mb-lg-4">健康提醒/ 日程安排/ 智能家居</p>
+              <a href="#" class="shake-horizontal-customer d-block" style="width: 96px; height: 24px;">
+                <img src="../assets/images/product/line_end_arrow_tologin.svg" alt="arrow button to login">
+              </a>
+              <a href="#" class="position-relative position-absolute" style="width: 109px; height: 109px; left: calc(50% - 54.5px); bottom: 24px;">
+                <img src="../assets/images/product/arrow_downward.svg" alt="arrow down pic" class="position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;">
+                <img src="../assets/images/product/whirling.svg" class="whirling" alt="whirling pic">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white text-black pt-15 pt-lg-20 pb-14 pb-lg-22">
+        <div class="container">
+          <div class="row justify-content-lg-between mb-8 mb-lg-22">
+            <div class="col-lg-5 col-xl-4">
+              <p class="fs-lg-6 fw-medium mb-6 mb-lg-8"><img src="../assets/images/product/multiply-black-icon.svg" alt="multiply black icon" class="me-3" style="width: 40px; height: 40px;">健康提醒/ 日程安排/ 智能家居</p>
+              <p class="fw-medium font-noto">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Karina</p>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <p class="font-noto fs-lg-6 fw-medium text-end">ALPHABOX+</p>
+            </div>
+          </div>
+          <ul class="row list-unstyled mb-0 mb-lg-21">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">先進的3D投影技術</h2>
+              <p class="font-noto">Karina 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">人性化的互動設計</h2>
+              <p class="font-noto">Karina 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Karina 進行自然、流暢的對話。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">豐富的應用場景</h2>
+              <p class="font-noto">無論是家庭娛樂、教育培訓還是商業展示，Karina 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+            </li>
+          </ul>
+          <ul class="row list-unstyled mb-0">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">高度自主性</h2>
+              <p class="font-noto">Karina 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">簡單易用的操作界面</h2>
+              <p class="font-noto">Karina 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-radialGradienStyle-2 pt-15 pt-lg-25 pb-14 pb-lg-29">
+        <div class="container">
+          <div class="row mb-4 mb-lg-3">
+            <div class="col col-lg-6 col-xxl-4">
+              <h2 class="fs-4 fs-lg-3 fw-bold letterspc-lg-100 mb-0">使用分享</h2>
+            </div>
+          </div>
+          <div class="row mb-6 mb-lg-20">
+            <div class="col col-lg-4">
+              <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper productDianeswiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper align-items-center">
+              <!-- Slides -->
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
+                <p class="font-noto fw-bold">
+                  自從家裡有了Karina，孩子們的學習興趣提高了不少，他們都喜歡透過Karina的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Karina
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-white text-black">
+                <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
+                <p class="font-noto fw-bold">
+                  自從公司引入 Karina，員工的工作效率提升了很多。Karina 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Karina
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
+                <p class="font-noto fw-bold">
+                  Karina 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Karina給所有的教育工作者！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Karina
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+  
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vito -->
+    <div class="productPage h-fadeToggle Vito d-none">
+      <div class="container-fluid g-0">
+        <div class="row g-0 position-relative">
+          <div class="col-12 col-lg-6">
+            <div id="carouselVito" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 375px;">
+                  <img src="../assets/images/product/vito_square1.png" class="d-block w-100 h-100 object-fit-cover" alt="Vito pic">
+                </div>
+                <div class="carousel-item" style="height: 375px;">
+                  <img src="../assets/images/product/vito_square2.png" class="d-block w-100 h-100 object-fit-cover" alt="Vito pic">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVito" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_left.svg" alt="Previous button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVito" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <img src="../assets/images/product/arrow_circle_right.svg" alt="Next button" style="width: 48px; height: 48px;">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="ps-3 ps-lg-10 h-100 pt-4 py-lg-0 d-flex flex-column justify-content-lg-center" style="padding-bottom: 149px;">
+              <h1 class="fs-4 fs-lg-2 mb-0 mb-lg-6">Vito</h1>
+              <p class="fw-bold">情感型</p>
+              <p class="mb-2 mb-lg-4">情感識別/ 心情分析/ 心靈支持</p>
+              <a href="#" class="shake-horizontal-customer d-block" style="width: 96px; height: 24px;">
+                <img src="../assets/images/product/line_end_arrow_tologin.svg" alt="arrow button to login">
+              </a>
+              <a href="#" class="position-relative position-absolute" style="width: 109px; height: 109px; left: calc(50% - 54.5px); bottom: 24px;">
+                <img src="../assets/images/product/arrow_downward.svg" alt="arrow down pic" class="position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;">
+                <img src="../assets/images/product/whirling.svg" class="whirling" alt="whirling pic">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white text-black pt-15 pt-lg-20 pb-14 pb-lg-22">
+        <div class="container">
+          <div class="row justify-content-lg-between mb-8 mb-lg-22">
+            <div class="col-lg-5 col-xl-4">
+              <p class="fs-lg-6 fw-medium mb-6 mb-lg-8"><img src="../assets/images/product/multiply-black-icon.svg" alt="multiply black icon" class="me-3" style="width: 40px; height: 40px;">情感識別/ 心情分析/ 心靈支持</p>
+              <p class="fw-medium font-noto">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Vito</p>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <p class="font-noto fs-lg-6 fw-medium text-end">ALPHABOX+</p>
+            </div>
+          </div>
+          <ul class="row list-unstyled mb-0 mb-lg-21">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">先進的3D投影技術</h2>
+              <p class="font-noto">Vito 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">人性化的互動設計</h2>
+              <p class="font-noto">Vito 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Vito 進行自然、流暢的對話。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">豐富的應用場景</h2>
+              <p class="font-noto">無論是家庭娛樂、教育培訓還是商業展示，Vito 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+            </li>
+          </ul>
+          <ul class="row list-unstyled mb-0">
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">高度自主性</h2>
+              <p class="font-noto">Vito 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+            </li>
+            <li class="col-lg-4 mb-6 mb-lg-0">
+              <h2 class="fs-7 font-noto fw-bold mb-4 mb-lg-6 h-lg-hover-underline">簡單易用的操作界面</h2>
+              <p class="font-noto">Vito 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-radialGradienStyle-2 pt-15 pt-lg-25 pb-14 pb-lg-29">
+        <div class="container">
+          <div class="row mb-4 mb-lg-3">
+            <div class="col col-lg-6 col-xxl-4">
+              <h2 class="fs-4 fs-lg-3 fw-bold letterspc-lg-100 mb-0">使用分享</h2>
+            </div>
+          </div>
+          <div class="row mb-6 mb-lg-20">
+            <div class="col col-lg-4">
+              <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper productDianeswiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper align-items-center">
+              <!-- Slides -->
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">Zichi <span class="mx-2">・</span> Kaohsiung</p>
+                <p class="font-noto fw-bold">
+                  自從家裡有了Vito，孩子們的學習興趣提高了不少，他們都喜歡透過Vito的3D立體投影來探索新知識，家庭氛圍變得更加和樂融融！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Vito
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-white text-black">
+                <p class="font-noto fw-bold mb-8">Lee <span class="mx-2">・</span> Chiayi</p>
+                <p class="font-noto fw-bold">
+                  自從公司引入 Vito，員工的工作效率提升了很多。Vito 不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-black.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Vito
+                </p>
+              </div>
+              <div class="swiper-slide d-flex flex-column p-6 p-lg-10 bg-quaternary">
+                <p class="font-noto fw-bold mb-8">瑞 <span class="mx-2">・</span> Taipei</p>
+                <p class="font-noto fw-bold">
+                  Vito 讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Vito給所有的教育工作者！
+                </p>
+                <p class="font-noto fw-bold mt-auto d-flex align-items-center">
+                  <img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4"><img src="../assets/images/index/Ellipse-white.svg" alt="ellipse icon" style="width: 16px;height: 16px;" class="me-4">
+                  ALPHABOX+ Vito
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+  
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
         </div>
       </div>
     </div>
