@@ -34,7 +34,6 @@
 
 //animate
 .h-fadeToggle{
-    transition: ease 8s !important;
     opacity: 0;
 }
 
@@ -100,6 +99,7 @@
     }
     .h-background-blend-mode{
         background-color: #000 !important;
+        transition: ease 0.8s;
         &:hover{
             background-color: transparent !important;
             cursor: pointer;

@@ -14,3 +14,10 @@
         rotate: 360deg;
     }
 }
+@include xl{
+    .whirling-xl-hover:hover{
+        .whirling{
+            animation-duration: 12s;
+        }
+    }
+}

@@ -56,26 +56,57 @@ const swiper = new Swiper('.productDianeswiper', {
 });
 
 $(document).ready(function () {
-    $('.productPage .btn').click(function (e) { 
-        e.preventDefault();
-        $(this).addClass('active').siblings().removeClass('active');
+    // $('.productPage .btn').click(function (e) { 
+    //     e.preventDefault();
+    //     $(this).addClass('active').siblings().removeClass('active');
 
-    });
+    // });
     $('.productPage .Diane').click(function (e) { 
         e.preventDefault();
+        $(this).addClass('active').siblings().removeClass('active');
         $('.productPage:nth-child(n+3)').addClass('h-fadeToggle');
         setTimeout(() => {
-            $('.productPage:nth-child(n+3)').addClass('d-none');
-            $('.productPage.Diane').removeClass('d-none h-fadeToggle');
-        }, 8*1000);
+            $('.productPage:nth-child(n+3):not(.Diane)').addClass('d-none');
+            $('.productPage.Diane').removeClass('d-none');
+            setTimeout(() => {
+                $('.productPage.Diane').removeClass('h-fadeToggle');
+            }, 0.03*1000);
+        }, 0.03*1000);
     });
     $('.productPage .Felix').click(function (e) { 
         e.preventDefault();
+        $(this).addClass('active').siblings().removeClass('active');
         $('.productPage:nth-child(n+3)').addClass('h-fadeToggle');
         setTimeout(() => {
-            $('.productPage:nth-child(n+3)').addClass('d-none');
+            $('.productPage:nth-child(n+3):not(.Felix)').addClass('d-none');
             $('.productPage.Felix').removeClass('d-none');
-            $('.productPage.Felix').delay(1.6*1000).removeClass('h-fadeToggle');
-        }, 8*1000);
+            setTimeout(() => {
+                $('.productPage.Felix').removeClass('h-fadeToggle');
+            }, 0.03*1000);
+        }, 0.03*1000);
+    });
+    $('.productPage .Karina').click(function (e) { 
+        e.preventDefault();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.productPage:nth-child(n+3)').addClass('h-fadeToggle');
+        setTimeout(() => {
+            $('.productPage:nth-child(n+3):not(.Karina)').addClass('d-none');
+            $('.productPage.Karina').removeClass('d-none');
+            setTimeout(() => {
+                $('.productPage.Karina').removeClass('h-fadeToggle');
+            }, 0.03*1000);
+        }, 0.03*1000);
+    });
+    $('.productPage .Vito').click(function (e) { 
+        e.preventDefault();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.productPage:nth-child(n+3)').addClass('h-fadeToggle');
+        setTimeout(() => {
+            $('.productPage:nth-child(n+3):not(.Vito)').addClass('d-none');
+            $('.productPage.Vito').removeClass('d-none');
+            setTimeout(() => {
+                $('.productPage.Vito').removeClass('h-fadeToggle');
+            }, 0.03*1000);
+        }, 0.03*1000);
     });
 });
