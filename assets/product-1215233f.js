@@ -1,1 +1,0 @@
-import{S as e}from"./swiper-bundle-979906ab.js";new e(".productDianeswiper",{direction:"vertical",slidesPerView:"auto",spaceBetween:24,enabled:!1,scrollbar:{el:".swiper-scrollbar",hide:!1},mousewheel:!0,breakpoints:{992:{enabled:!0,slidesPerView:3,spaceBetween:24,direction:"horizontal",scrollbar:{dragSize:"auto",draggable:!0}}}});
