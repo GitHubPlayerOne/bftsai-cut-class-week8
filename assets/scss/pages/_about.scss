@@ -1,7 +1,21 @@
 .about{
-
+    .bg-white{
+        .fakeDecorate{
+            position: relative;
+            &::before{
+                position: absolute;
+                content: "";
+                width: 80px;
+                height: 12px;
+                background-color: #E9E2F3;
+                mix-blend-mode: darken;
+                left: -8px;
+                bottom: 0;
+            }
+        }
+    }
 }
-@include xxxl{
+@include lg{
     .about{
         .h-radialGradienStyle-4{
             .fw-medium:nth-child(1){
@@ -12,8 +26,6 @@
             }
             .container:nth-child(3){
                 img{
-                    width: 80px !important;
-                    height: 80px !important;
                     margin-right: 25px !important;
                 }
             }
@@ -31,7 +43,46 @@
                     width: 32.954546% !important;
                 }
             }
+            .fakeDecorate{
+                position: relative;
+                z-index: 1;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 80px;
+                    height: 12px;
+                    background-color: #E9E2F3;
+                    mix-blend-mode: darken;
+                    left: -8px;
+                    bottom: 0;
+                }
+            }
             
+        }
+        .decorate{
+            width: 92.827004% !important;
+        }
+    }
+}
+@include xxxl{
+    .about{
+        .img-group>img{
+            width: 560px !important;
+        }
+        .bg-white{
+            .d-flex:nth-child(3){
+                width: 1760px !important;
+                p:nth-child(1){
+                    width: 758px !important;
+                }
+                p:nth-child(2){
+                    width: 580px !important;
+                }
+            }
+            
+        }
+        .decorate{
+            width: 1760px !important;
         }
     }
 }

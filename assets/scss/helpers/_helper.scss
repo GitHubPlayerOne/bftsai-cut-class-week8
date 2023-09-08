@@ -42,6 +42,11 @@
             border-color: #000;
         }
     }
+    .h-hover-lg-primary:hover{
+        .material-symbols-outlined{
+            color: $primary;
+        }
+    }
 }
 @include xl{
     .h-radialGradienStyle-1{
@@ -68,6 +73,15 @@
         }
         &:active{
             background-color: transparent !important;
+        }
+    }
+}
+@include xxxl{
+    //bootstrap carousel
+    .carousel-control-prev,.carousel-control-next{
+        opacity: 1 !important;
+        &:hover{
+            opacity: 0.5 !important;
         }
     }
 }

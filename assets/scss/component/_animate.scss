@@ -1,0 +1,34 @@
+.fadeInright{
+    animation-name: fadeInright;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes fadeInright {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.fadeIn{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
