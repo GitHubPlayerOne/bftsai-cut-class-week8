@@ -1,0 +1,10 @@
+.page-link{
+    &:focus{
+        color: #FFF !important;
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+}
+.c-page-active{
+    border-bottom: 1px solid #FFF !important;
+}
