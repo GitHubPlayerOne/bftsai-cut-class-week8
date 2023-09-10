@@ -45,6 +45,11 @@
             color: $primary;
         }
     }
+    .h-hover-lg-opacity:hover{
+        img{
+            opacity: 0.5;
+        }
+    }
 }
 @include xl{
     .h-radialGradienStyle-1{

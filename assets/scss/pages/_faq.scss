@@ -1,0 +1,23 @@
+.faq{
+    button{
+        .addIcon{
+            display: none;
+        }
+        .removeIcon{
+            display: block;
+        }
+        &:not(.collapsed){
+            .addIcon{
+                display: block;
+            }
+            .removeIcon{
+                display: none;
+            }
+        }
+    }
+}
+@include lg{
+    .faq{
+
+    }
+}

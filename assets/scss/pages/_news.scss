@@ -1,6 +1,17 @@
-
+@include sm{
+    .news{
+        .d-flex:nth-child(1)>.smallMainpic{
+            height: 120px !important;
+        }
+    }
+}
 @include lg{
     .news{
-        
+        .d-flex:nth-child(1)>.smallMainpic{
+            width: 66.6667% !important;
+        }
+        .d-flex:nth-child(1)>.leftMainpic{
+            height: 600px !important;
+        }
     }
 }
