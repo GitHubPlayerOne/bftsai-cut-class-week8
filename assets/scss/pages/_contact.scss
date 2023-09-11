@@ -1,0 +1,15 @@
+.contact{
+    label:after{
+        background: #FFF !important;
+    }
+}
+@include xxxl{
+    .contact{
+        .bg-white{
+            .container-fluid:nth-child(2)>.w-100{
+                width: 72.291667% !important;
+                height: 232px;
+            }
+        }
+    }
+}

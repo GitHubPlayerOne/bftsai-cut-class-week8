@@ -1,23 +1,25 @@
 .faq{
     button{
         .addIcon{
-            display: none;
+            display: block;
         }
         .removeIcon{
-            display: block;
+            display: none;
         }
         &:not(.collapsed){
             .addIcon{
-                display: block;
+                display: none;
             }
             .removeIcon{
-                display: none;
+                display: block;
             }
         }
     }
 }
 @include lg{
     .faq{
-
+        .col-lg-4:nth-child(1)>div{
+            border-width: 0 !important;
+        }
     }
 }

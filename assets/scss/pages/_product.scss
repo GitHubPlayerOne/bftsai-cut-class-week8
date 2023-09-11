@@ -28,6 +28,11 @@
             .col-12:nth-child(1)>div{
                 padding-bottom: 0px !important;
             }
+            .col-12:nth-child(2)>a:hover{
+                span{
+                    color: $primary !important;
+                }
+            }
             .shake-horizontal-customer{
                 width: 313.88px !important;
                 height: 22.6px !important;
