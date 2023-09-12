@@ -50,10 +50,16 @@
             opacity: 0.5;
         }
     }
+    .h-border-top-lg-0{
+        border-top: 0px solid #FFF !important;
+    }
 }
 @include xl{
     .h-radialGradienStyle-1{
         background: radial-gradient(#300871,#000000);
+    }
+    .h-border-top-xl-1{
+        border-top: 1px solid #FFF !important;
     }
     .h-border-bottom-xl-0{
         border-bottom-width: 0px !important;

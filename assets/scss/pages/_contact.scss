@@ -3,12 +3,11 @@
         background: #FFF !important;
     }
 }
-@include xxxl{
+@include xl{
     .contact{
         .bg-white{
-            .container-fluid:nth-child(2)>.w-100{
-                width: 72.291667% !important;
-                height: 232px;
+            .container-fluid{
+                padding-bottom: 232px !important;
             }
         }
     }
