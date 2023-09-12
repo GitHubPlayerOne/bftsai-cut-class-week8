@@ -1,10 +1,11 @@
 $(document).ready(function () {
+    //pagination
     $('.page-link').click(function (e) { 
         e.preventDefault();
         $(this).addClass('c-page-active').parent().siblings().find('.page-link').removeClass('c-page-active');
     });
-    
-    $('.detail-arrow').click(function (e) { 
+    //news1
+    $('.detail-arrow,.news1').click(function (e) { 
         e.preventDefault();
         if($(window).width()<992){
             //same mb-10
@@ -21,6 +22,7 @@ $(document).ready(function () {
             }, 0.03*1000);
         }, 0.5*1000);
     });
+    //back to news index
     $('.backNewsIndex').click(function (e) { 
         e.preventDefault();
         $('.detailNews1').addClass('h-fadeToggle');

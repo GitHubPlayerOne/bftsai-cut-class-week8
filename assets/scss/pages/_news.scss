@@ -1,3 +1,8 @@
+.news{
+    .news1:hover{
+        cursor: pointer;
+    }
+}
 @include sm{
     .news{
         .d-flex:nth-child(1)>.smallMainpic{
