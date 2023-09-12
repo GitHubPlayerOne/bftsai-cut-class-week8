@@ -1,10 +1,10 @@
-# 網頁切版直播班 -![Alt text](<assets/images/web-icon white.svg>)【 AI 虛擬陪伴 】網頁製作
+# 網頁切版直播班 ![Alt text](<assets/images/web-icon white.svg>)【 AI 虛擬陪伴 】  
 
 * [GitHub](https://github.com/bftsai/cut-class-week8)  
 * [gh-pages](https://bftsai.github.io/cut-class-week8/)  
 
 ## 🕺&ensp;作者
-  - [BF Tsai](https://github.com/bftsai)
+  - [BF Tsai](https://github.com/bftsai)  
 
 ## 🖥&ensp;下載專案
 > clone 專案  
