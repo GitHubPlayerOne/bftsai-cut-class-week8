@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- customer -->
-    <title>AI 虛擬陪伴 Login</title>
+    <title>AI 虛擬陪伴 Register</title>
     <link rel="shirt icon" href="../assets/images/web-icon.png">
     <meta name="description" content="AI 虛擬陪伴">
     <meta name="keywords" content="AI虛擬陪伴,Red,Tsai">
@@ -18,12 +18,12 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <div class="login">
-        <div class="h-radialGradienStyle-2 pt-lg-15">
+    <div class="register">
+        <div class="h-radialGradienStyle-2 pt-lg-15 pb-lg-25">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-4">
-                        <h1 class="fs-lg-2 fw-heavy letterspc-100 mt-lg-25 mb-lg-0">登入</h1>
+                        <h1 class="fs-lg-2 fw-heavy letterspc-100 mt-lg-25 mb-lg-0">註冊</h1>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="d-flex flex-column align-items-center">
@@ -40,17 +40,27 @@
                             <p class="font-noto w-100 text-center mb-lg-6 position-relative h-fakeline">or</p>
                             <form action="login.html">
                                 <div class="form-floating mb-4">
+                                    <input type="name" class="form-control font-noto fw-bold fs-6 py-2" id="name" placeholder="姓名" name="name">
+                                    <label class="fs-6 font-noto fw-bold py-2 ps-4 pe-0" for="name">姓名</label>
+                                </div>
+                                <div class="form-floating mb-4">
                                     <input type="email" class="form-control font-noto fw-bold fs-6 py-2" id="email" placeholder="EMAIL" name="email">
                                     <label class="fs-6 font-noto fw-bold py-2 ps-4 pe-0" for="email">EMAIL</label>
                                 </div>
-                                <div class="form-floating mb-6">
+                                <div class="form-floating mb-2">
                                     <input type="password" class="form-control font-noto fw-bold fs-6 py-2" id="password" placeholder="密碼" name="password">
                                     <label class="fs-6 font-noto fw-bold py-2 ps-4 pe-0" for="password">密碼</label>
                                 </div>
+                                <div class="form-check mb-6">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label font-noto d-flex align-items-center" for="flexCheckDefault">
+                                        我已仔細閱讀<a href="#" style="text-decoration: underline;">相關條例</a>
+                                    </label>
+                                </div>
                                 <button class="btn btn-tertiary rounded-1 fw-medium py-2 d-flex justify-content-center align-items-center w-100 mb-2">
-                                    <img src="../assets/images/login/scription-white-icon.svg" alt="" class="me-1" style="width: 24px; height: 24px;">立即登入
+                                    <img src="../assets/images/login/scription-white-icon.svg" alt="" class="me-1" style="width: 24px; height: 24px;">建立帳號
                                 </button>
-                                <a href="#" class="text-end" style="text-decoration: underline;">忘記密碼</a>
+                                <p class="font-noto text-end">已有帳號嗎？前往<a href="login.html" class="d-inline-block" style="text-decoration: underline;">登入</a></p>
                             </form>
                         </div>
                     </div>

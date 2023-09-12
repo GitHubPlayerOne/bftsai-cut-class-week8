@@ -27,6 +27,26 @@
     background-blend-mode: darken;
 }
 
+.login,.register{
+    .h-fakeline::before{
+        position: absolute;
+        content: "";
+        width: calc((100% - 24px)/2);
+        height: 1px;
+        background-color: #828282;
+        left: 0;
+        top: 50%;
+    }
+    .h-fakeline::after{
+        position: absolute;
+        content: "";
+        width: calc((100% - 24px)/2);
+        height: 1px;
+        background-color: #828282;
+        right: 0;
+        top: 50%;
+    }
+}
 
 //animate
 .h-fadeToggle{
